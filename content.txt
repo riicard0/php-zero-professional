@@ -2,4 +2,20 @@
 
 > Projeto: montando um Portal:
 
-  - 
+  - Facebook "Page Plugin":
+
+	https://developers.facebook.com/docs/plugins/page-plugin
+
+  CSS:
+
+	overflow: hidden;
+
+	overflow: scroll;
+
+	overflow: auto;
+
+  O comando "overflow" quando setado com "hidden" diz que qualquer conteúdo que passar da margem será 
+  escondido. Setado com "scroll", qualquer conteúdo que passar terá um barra de rolagem para 
+  visualizá-lo. E setado com "auto", inicialmente fica normal, mas qualquer conteúdo que passar aparecerá 
+  também a barra de rolagem (esse é o padrão de qualquer site).
+

@@ -181,3 +181,118 @@ body {
 }
 
 /* MAIN */
+.ultimasnoticias {
+  height: 40px;
+}
+
+.ultimasnoticiasint {
+  width: 100%;
+  max-width: 1040px;
+  height: 40px;
+  margin: auto;
+}
+
+.ultnoticiasarea {
+  height: 28px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.ultnoticiastitulo {
+  background-color: #ff0000;
+  color: #fff;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.ultnoticiasnoticia {
+  color: #000;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+/* MAIN CONTAINER */
+.containerint {
+  width: 100%;
+  max-width: 1040px;
+  margin: auto;
+}
+
+.rightside {
+  width: 275px;
+  min-height: 200px;
+  float: right;
+  margin-left: 12px;
+}
+
+.widget {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.widget_titulo {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ddd;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.widget_conteudo {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.noticia_item {
+  font-size: 14px;
+  margin: 0px 10px;
+  padding: 10px 0px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.noticia_item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.noticia_item a:hover {
+  color: #0000ff;
+}
+
+.leftside {
+  width: 753px;
+  float: left;
+}
+
+.slideshow {
+  height: 335px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.slideshowarea {
+  width: 100000px;
+  height: 335px;
+  background-color: #ddd;
+}
+
+.slide {
+  height: 335px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* CONTINUAR DA AULA: "Montando um portal (9/10)" */
