@@ -279,12 +279,14 @@ body {
   height: 335px;
   background-color: #ccc;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .slideshowarea {
   width: 100000px;
   height: 335px;
   background-color: #ddd;
+  transition: all 1s;
 }
 
 .slide {
@@ -295,4 +297,111 @@ body {
   background-size: cover;
 }
 
-/* CONTINUAR DA AULA: "Montando um portal (9/10)" */
+.slideinfo {
+  height: 70px;
+  margin-top: 265px;
+}
+
+.slideinfo_titulo {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 20px;
+  text-shadow: 2px 1px 8px #000;
+}
+
+.slideinfo_subtitulo {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 20px;
+  text-shadow: 2px 1px 8px #000;
+}
+
+.slidebolinhas {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+}
+
+.bolinha {
+  width: 20px;
+  height: 20px;
+  float: left;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin: 7px 0px 0 7px;
+}
+
+.noticiaarea1 {
+  width: 410px;
+  height: 420px;
+  float: left;
+  margin-left: 3px;
+}
+
+.noticiaarea2 {
+  width: 315px;
+  height: 420px;
+  float: right;
+  margin-right: 3px;
+}
+
+.noticiaitem {
+  text-align: left;
+  height: 90px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.noticiaitem:hover {
+  background-color: #f5f5f5;
+}
+
+.noticiaitem:hover .noticiatitulo {
+  color: #0000ff;
+}
+
+.noticiaimg {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  float: left;
+}
+
+.noticiatitulo {
+  width: 219px;
+  float: left;
+  margin-left: 6px;
+  font-size: 16px;
+  color: #000;
+}
+
+.noticiainfo {
+  width: 219px;
+  font-size: 12px;
+  margin-left: 6px;
+  color: #999;
+  float: left;
+}
+
+.noticiabig:hover {
+  height: 390px;
+  background-color: #f5f5f5;
+}
+
+.noticiabig .noticiaimg {
+  width: 400px;
+  height: 222px;
+}
+
+.noticiabig .noticiaimg img {
+  width: 400px;
+  height: 222px;
+}
+
+.noticiabig .noticiatitulo {
+  width: 400px;
+  font-size: 30px;
+}

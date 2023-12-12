@@ -1,7 +1,7 @@
 //SLIDESHOW
 var slideItem = 0;
 window.onload = function() {
-  setInterval(passarSlide, 2000);
+  setInterval(passarSlide, 3000);
 
   var slidewidth = document.getElementById("slideshow").offsetWidth;
   var objs = document.getElementsByClassName("slide");
@@ -19,13 +19,13 @@ function passarSlide(){
     slideItem++;
   }
 
-  document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-" + (slideWidth * slideItem) + "px";
+  document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
 }
 
 function mudarSlide(pos) {
   slideItem = pos;
-  var slideWidth = document.getElementById("slideshow").offsetWidth;
-  document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-" + (slideWidth * slideItem) + "px";
+  var slidewidth = document.getElementById("slideshow").offsetWidth;
+  document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
 }
 
 /*
