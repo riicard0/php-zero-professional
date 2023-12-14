@@ -405,3 +405,165 @@ body {
   width: 400px;
   font-size: 30px;
 }
+
+/* RESPONSIVIDADE */
+@media only screen and (min-width: 906px) and (max-width: 1057px) {
+
+  .topoint,
+  .topo2int,
+  .menuint,
+  .ultimasnoticiasint,
+  .containerint {
+    max-width: 890px;
+  }
+
+  .leftside {
+    width: 600px;
+  }
+
+  .noticiaarea1 {
+    width: 277px;
+  }
+
+  .noticiabig .noticiaimg {
+    width: 245px;
+    height: 170px;
+  }
+
+  .noticiabig .noticiaimg img {
+    width: 245px;
+    height: 170px;
+  }
+
+  .noticiabig .noticiatitulo {
+    width: 245px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 783px) and (max-width: 906px) {
+
+  .topoint,
+  .topo2int,
+  .menuint,
+  .ultimasnoticiasint,
+  .containerint {
+    max-width: 768px;
+  }
+
+  .topo2 .banner {
+    display: none;
+  }
+
+  .logo {
+    float: none;
+    margin: auto;
+  }
+
+  .leftside {
+    float: none;
+    width: auto;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .noticiaarea1 {
+    width: 277px;
+  }
+
+  .noticiabig .noticiaimg {
+    width: 400px;
+    height: 222px;
+  }
+
+  .noticiabig .noticiaimg img {
+    width: 400px;
+    height: 222px;
+  }
+
+  .noticiabig .noticiatitulo {
+    width: 400px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 783px) {
+
+  .topoint,
+  .topo2int,
+  .menuint,
+  .ultimasnoticiasint,
+  .containerint {
+    max-width: 320px;
+  }
+
+  .topoleft {
+    display: none;
+  }
+
+  .toporight {
+    width: 100%;
+  }
+
+  .topo2 .banner {
+    display: none;
+  }
+
+  .logo {
+    float: none;
+    margin: auto;
+  }
+
+  .menuint {
+    display: none;
+  }
+
+  .ultimasnoticias {
+    display: none;
+  }
+
+  .leftside {
+    float: none;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .noticiaarea1 {
+    width: 320px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .noticiaarea2 {
+    width: 312px;
+  }
+
+  .noticiaarea2 .noticiatitulo {
+    width: 218px;
+  }
+
+  .noticiaarea2 .noticiainfo {
+    width: 218px;
+  }
+
+  .noticiabig .noticiaimg {
+    width: 304px;
+    height: 222px;
+  }
+
+  .noticiabig .noticiaimg img {
+    width: 304px;
+    height: 222px;
+  }
+
+  .noticiabig .noticiatitulo {
+    width: 304px;
+    font-size: 25px;
+  }
+}
