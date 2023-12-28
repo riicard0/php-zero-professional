@@ -19,3 +19,111 @@
   visualizá-lo. E setado com "auto", inicialmente fica normal, mas qualquer conteúdo que passar aparecerá 
   também a barra de rolagem (esse é o padrão de qualquer site).
 
+> Flex-box:
+
+  - Algumas propriedades do "flex-box":
+
+  "flex-direction":
+
+	flex-direction: row
+	flex-direction: column
+	flex-direction: row-reverse
+	flex-direction: column-reverse
+
+ Essa propriedade "flex-direction" diz o direcionamento da "div". O valor padrão da propriedade é "row".
+
+  "flex":
+
+	flex: 1;
+
+  Esse propriedade "flex" diz, imagine um espaço em uma sala com 3 pessoas, por exemplo, quando setado 
+  esse comando, com valor "1", ela diz que cada pessoa dessa terá 1 espaço reservado para si próprio, 
+  na mesma proporção (igualdade) das outras pessoas.
+
+  Se por exemplo, o comando "flex: 1" estivesse somente para 1 dessas 3 pessoas, somente essa pessoa 
+  teria um espaço reservado na sala, ocupando quase todo espaço, as outras 2 pessoas estariam ali também 
+  porém no canto delas sem ter seu espaço reservado.
+
+  Do mesmo jeito que se alguma tivesse um espaço reservado a mais que a outra pessoa, seu espaço seria 
+  um pouco maior do que das outras.
+
+  Lembrando que sempre estará se adaptando na sala, conforme exemplo acima.
+
+  Agora, na prática, lembre-se de setar a propriedade na div, ou seja:
+
+  CSS:
+
+	.container{
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.container div{
+	  flex: 1;
+	}
+
+  "flex-wrap":
+
+  Outro ponto, caso utilizássemos "width: 200px" em várias "DIVs", ao invés de "flex", o flex-box 
+  se adapta a tela não deixando o layout quebrar, porém diminuindo o valor de largura da "div", 
+  pois o flex-box tem uma propriedade com valor padrão chamada "flex-wrap: nowrap;".
+
+  Caso quiséssemos que o layout quebrasse propositalmente, é somente utilizar:
+
+	flex-wrap: wrap;
+
+  "flex-flow":
+
+	flex-flow: row wrap
+
+  Essa propriedade é a junção das propriedades "flex-direction" com a "flex-wrap".
+
+  "justify-content":
+
+	justify-content: center;
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: space-around;
+	justify-content: space-between;
+
+  Essa propriedade é uma das mais utilizadas no flex-box e de maior ajuda, pois facilita muito o trabalho 
+  de alinhamento de "DIVs". O valor padrão dessa propriedade é "flex-start".
+
+  "align-items":
+
+	align-items: center;
+	align-items: flex-start;
+	align-items: flex-end;
+
+  Outra propriedade de alinhamento conforme a anterior.
+
+  Lembrando que se o "flex-direction" estiver com valor padrão "row", o "justify-content" alinhará 
+  horizontalmente e o "align-items" alinhará verticalmente.
+
+  Agora, se o "flex-direction" estiver com valor "column", o "justify-content" alinhará VERTICALMENTE e 
+  o "align-items" alinhará HORIZONTALMENTE, pois as direções mudaram.
+
+  Podemos juntar as propriedades "justify-content" e "align-items" de uma forma diferente também:
+
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: flex-end
+
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+  Depende do que você irá querer para o determinado momento. Isso facilita muito a vida para construção 
+  do layout.
+
+
+
+
+
+
+
+>>> CONTINUAR DE: "Flexbox: Alinhamentos (2/2)"
