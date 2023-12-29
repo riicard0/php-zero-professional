@@ -1,3 +1,15 @@
+>>> CONTINUAR DE: "Projeto: Site com Flexbox e HTML Semântico (parte 2)"
+
+
+
+
+
+
+
+
+
+
+
 =================================== PHP do Zero ao Profissional (Bonieky Lacerda) ==================================
 
 > Projeto: montando um Portal:
@@ -120,10 +132,45 @@
   Depende do que você irá querer para o determinado momento. Isso facilita muito a vida para construção 
   do layout.
 
+  "align-self":
 
+	align-self: flex-start
+	align-self: flex-end
+	align-self: center
 
+  O "align-self" serve para você ter controle sobre determinada/específica "div" que queria controlar, claramente 
+  colocando ela com uma classe no qual seja somente dela.
 
+  "order":
 
+	order: 1;
+	order: 0;
+	order: -1;
 
+  Esse propriedade, independente de quantas "DIVs" foram criadas, estando no mesmo escopo, direciona a "div" para 
+  o canto que quiser, ou seja: "order: 1;" leva a "div" para o canto direito (após todas as outras "DIVs"), assim 
+  como "order: -1;" leva a "div" para o canto direito (antes de todas as outras "DIVs") e "order: 0;" deixa a "div" 
+  no próprio lugar em que foi setada lá no HTML, ou seja, valor padrão dela. Claramente, lembrando, colocando ela 
+  com uma classe no qual seja somente dela.
 
->>> CONTINUAR DE: "Flexbox: Alinhamentos (2/2)"
+  "align-content":
+
+	flex-wrap: wrap;
+	align-content: center
+
+	flex-wrap: wrap;
+	align-content: flex-end
+
+	flex-wrap: wrap;
+	align-content: flex-start
+
+	flex-wrap: wrap;
+	align-content: space-between
+
+	flex-wrap: wrap;
+	align-content: space-around
+
+  Essa propriedade "align-content" só funciona com "flex-wrap: wrap;" e ela leva TODO CONTEÚDO para determinada 
+  direção setada. Ou seja, essa propriedade é quando tem mais de um conteúdo e esse conteúdo for cair ("wrap") e 
+  termos controle sobre ele.
+
