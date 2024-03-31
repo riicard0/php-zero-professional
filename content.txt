@@ -1,4 +1,4 @@
->>> CONTINUAR DE: "Projeto: Site com Flexbox e HTML Semântico (parte 2)"
+>>> CONTINUAR DE: "Projeto: Site com Flexbox e HTML Semântico (parte 6)"
 
 
 
