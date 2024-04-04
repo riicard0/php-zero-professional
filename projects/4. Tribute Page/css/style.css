@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Arial';
+}
+
+:root {
+  --color-1: #000000;
+  --color-2: #ffffff;
+  --color-3: #444857;
+  --color-4: #47cf73;
+  --color-5: #ff0000;
+
+  --font-1: "Roboto Mono";
+  --font-2: "Roboto Slab";
+  --font-3: "Quicksand";
+}
+
+/* HEADER */
+header {
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  margin-bottom: .5rem;
+}
+
+.container {
+  width: 144rem;
+}
+
+.allHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allHeader .logo h1 {
+  color: var(--color-2);
+  font-size: 3rem;
+  font-family: var(--font-1);
+}
+
+.allHeader .menu a {
+  background-color: var(--color-3);
+  color: var(--color-2);
+  text-decoration: none;
+  font-family: var(--font-3);
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: .5rem;
+  transition: .3s ease-in-out;
+}
+
+.allHeader .menu a i {
+  font-size: 1.5rem;
+}
+
+.allHeader .menu a:hover {
+  background-color: var(--color-2);
+  color: var(--color-1);
+  font-weight: bold;
+}
+
+.allHeader .menu .like:hover {
+  background-color: var(--color-2);
+  color: var(--color-5);
+}
+
+.allHeader .menu .sign_up:hover {
+  background-color: var(--color-4);
+  color: var(--color-2);
+}
+
+.allHeader .menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allHeader .menu ul li {
+  list-style: none;
+}
+
+.allHeader .menu ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* FIM HEADER */
+
+/* HERO */
+.allHero {
+  background-color: #000;
+  width: 100%;
+  height: .5rem;
+  margin-bottom: .5rem;
+}
+
+/* FIM HERO */
