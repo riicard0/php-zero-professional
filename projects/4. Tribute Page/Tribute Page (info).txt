@@ -1,16 +1,27 @@
 - Tribute Page Inspiration: https://codepen.io/krisskross99/full/poJYZgd
 
-- Dedicated: Askeladd (Lucius Artorius Castus) - Anime: "Vinland Saga"
+-------------------------------------
+
+- Dedicated: Socrates
+
+-------------------------------------
 
 - Content:
 
-	Embora Thorfinn seja o protagonista do mangá, Askeladd ganha notável destaque na narrativa, muitas vezes tendo até mais espaço em cada capítulo. Isso é válido principalmente nos quatro volumes iniciais, já lançados no Brasil. Sua criação foi inspirada pelo personagem de fábulas nórdicas Askeladden. Segundo esses contos, trata-se de um indivíduo que sempre ganha no fim, superando os outros em razão de seu intelecto.
-	Seguindo o mesmo princípio daquele no qual foi baseado, Askeladd é, definitivamente, um dos personagens mais inteligentes da história. Especialista em prever os movimentos do inimigo, ele também se define como um dos maiores guerreiros de Vinland Saga, sendo capaz de duelar páreo a páreo com Thors.
-	Sua competência, porém, é mantida em segredo, uma vez que esse líder de um bando viking se esconde sob sua personalidade mais relaxada, somente demonstrando maior seriedade nas situações de vida ou morte.
-	Askeladd foi responsável pela morte de Thors, pai de Thorfinn e, desde então, manipula o jovem através de sua vontade por vingança. Muitas vezes emprega o menino como sua carta na manga, utilizando-o como uma espécie de assassino que, em geral, infiltra as linhas inimigas em missões especiais.
-	Por ser meio nórdico e meio galês, Askeladd consegue transitar entre esses dois grupos com facilidade, atuando, também, como um efetivo negociador nas situações mais arriscadas. Além disso, ele acredita nas lendas antigas de seu povo, em especial naquela do Rei Arthur (ou Arcturius). Esse fator garante uma evidente profundidade ao personagem, que, pouco a pouco, passamos a enxergar como tendo algumas motivações ocultas – certamente um dos mais fascinantes de Vinland Saga.
+	Socrates
+	Greek philosopher
 
-	- AINDA NÃO PEGUEI O CONTEÚDO DO SEGUNDO LINK ("LIBER PROELIIS").
+	"I only know that I know nothing"
+
+	Socrates was an ancient Greek philosopher, one of the three greatest figures of the ancient period of Western philosophy (the others were Plato and Aristotle).
+
+	Socrates (born c. 470 BCE, Athens [Greece]—died 399 BCE, Athens) ancient Greek philosopher whose way of life, character, and thought exerted a profound influence on Classical antiquity and Western philosophy.
+	Socrates was a widely recognized and controversial figure in his native Athens, so much so that he was frequently mocked in the plays of comic dramatists. (The Clouds of Aristophanes, produced in 423, is the best-known example.) Although Socrates himself wrote nothing, he is depicted in conversation in compositions by a small circle of his admirers—Plato and Xenophon first among them. He is portrayed in these works as a man of great insight, integrity, self-mastery, and argumentative skill. The impact of his life was all the greater because of the way in which it ended: at age 70, he was brought to trial on a charge of impiety and sentenced to death by poisoning (the poison probably being hemlock) by a jury of his fellow citizens. Plato’s Apology of Socrates purports to be the speech Socrates gave at his trial in response to the accusations made against him (Greek apologia means “defense”). Its powerful advocacy of the examined life and its condemnation of Athenian democracy have made it one of the 
+	central documents of Western thought and culture.
+
+	
+
+-------------------------------------
 
 - Google Fonts:
 
@@ -18,7 +29,11 @@
 	- Roboto Slab
 	- Quicksand
 
+-------------------------------------
+
 - Fontes/Links (Informações Askeladd):
 
-	- https://www.planocritico.com/entenda-melhor-vinland-saga/#:~:text=Askeladd%20foi%20respons%C3%A1vel%20pela%20morte,linhas%20inimigas%20em%20miss%C3%B5es%20especiais.
-	- https://liberproeliis.fandom.com/pt-br/wiki/Askeladd
+	https://brasilescola.uol.com.br/biografia/socrates-biografia.htm
+	https://www.britannica.com/biography/Socrates
+
+-------------------------------------

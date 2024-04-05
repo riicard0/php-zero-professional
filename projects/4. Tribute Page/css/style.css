@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nanum+Myeongjo&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
 
 * {
   margin: 0;
@@ -9,16 +11,30 @@
   font-family: 'Arial';
 }
 
+body {
+  min-height: 100vh;
+  background-color: var(--color-6);
+  /* overflow: hidden; */
+}
+
 :root {
   --color-1: #000000;
   --color-2: #ffffff;
   --color-3: #444857;
   --color-4: #47cf73;
   --color-5: #ff0000;
+  --color-6: #0c192c;
+  --color-7: #2dc3ff;
 
   --font-1: "Roboto Mono";
   --font-2: "Roboto Slab";
   --font-3: "Quicksand";
+  --font-4: "Nanum Myeongjo";
+  --font-5: "Merienda";
+}
+
+.container {
+  width: 144rem;
 }
 
 /* HEADER */
@@ -27,11 +43,6 @@ header {
   display: flex;
   justify-content: center;
   height: 7rem;
-  margin-bottom: .5rem;
-}
-
-.container {
-  width: 144rem;
 }
 
 .allHeader {
@@ -93,11 +104,109 @@ header {
 /* FIM HEADER */
 
 /* HERO */
-.allHero {
-  background-color: #000;
+/* bolhas */
+.container_bolhas {
+  position: relative;
   width: 100%;
-  height: .5rem;
-  margin-bottom: .5rem;
 }
 
+.bolhas {
+  position: absolute;
+  display: flex;
+}
+
+.bolhas span {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-6);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #2dc3ff44,
+    0 0 50px var(--color-7),
+    0 0 100px var(--color-7);
+  animation: animar calc(100s / var(--i)) linear infinite;
+}
+
+@keyframes animar {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+
+  100% {
+    transform: translateY(0vh) scale(2);
+  }
+}
+
+.bolhas span:nth-of-type(even) {
+  background: var(--color-2);
+  box-shadow: 0 0 0 10px #2dc3ff44,
+    0 0 50px var(--color-7),
+    0 0 100px var(--color-7);
+}
+
+/* fim bolhas */
 /* FIM HERO */
+
+.allContainer {
+  position: absolute;
+}
+
+.container_content {
+  position: relative;
+  width: 170rem;
+  height: 200rem;
+  background-color: #ffffff40;
+  margin: 5rem auto;
+}
+
+.dedicated_home {
+  padding: 10rem 0;
+  width: 144rem;
+  margin: 0 auto;
+  color: var(--color-2);
+  text-align: center;
+  /* background-color: #000000; */
+}
+
+.dedicated_home h1 {
+  font-size: 5rem;
+  font-family: var(--font-4);
+  text-transform: uppercase;
+}
+
+.dedicated_home h3 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: var(--font-1);
+}
+
+.dedicated_home h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-family: var(--font-5);
+}
+
+.dedicated_home img {
+  margin-top: 3rem;
+  width: 30rem;
+  border-radius: 50%;
+  border: .3rem solid var(--color-3);
+  transition: .3s ease-in-out;
+  opacity: 1;
+}
+
+.dedicated_home img:hover {
+  opacity: .5;
+  border: .3rem solid transparent;
+}
+
+.dedicated_home .phrase {
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.dedicated_home .phrase h3 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--font-3);
+}
