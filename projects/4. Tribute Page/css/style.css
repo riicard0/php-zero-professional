@@ -14,7 +14,7 @@
 body {
   min-height: 100vh;
   background-color: var(--color-6);
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 :root {
@@ -393,3 +393,588 @@ header {
   font-family: var(--font-3);
   font-weight: 300;
 }
+
+/* MEDIA SCREEN */
+/* screen 1440 - pc */
+@media (max-width: 1440px) {
+
+  .container {
+    width: 128rem;
+  }
+
+  .allHeader {
+    width: 104rem;
+  }
+
+  .dedicated_home {
+    width: 128rem;
+  }
+
+  .dedicated_about {
+    width: 104rem;
+  }
+
+  .content_summary {
+    width: 63%;
+  }
+
+  .content_curiosities {
+    width: 37%;
+  }
+
+  .dedicated_life {
+    width: 104rem;
+  }
+
+  .vertical_bar {
+    height: 53rem;
+  }
+
+  .dedicated_legacy {
+    width: 104rem;
+  }
+
+  .dedicated_legacy .vertical_bar {
+    height: 241rem;
+  }
+
+  .container_content {
+    height: 531rem;
+  }
+
+  .footer .container_content {
+    width: 128rem;
+  }
+}
+
+/* fim screen 1440 */
+
+/* screen 1280 - laptop */
+@media (max-width: 1280px) {
+
+  .container {
+    width: 104rem;
+  }
+
+  .allHeader {
+    width: 90rem;
+  }
+
+  .dedicated_home {
+    width: 104rem;
+  }
+
+  .dedicated_about {
+    width: 90rem;
+  }
+
+  .content_summary {
+    width: 55%;
+  }
+
+  .content_curiosities {
+    width: 45%;
+  }
+
+  .dedicated_life {
+    width: 90rem;
+  }
+
+  .vertical_bar {
+    height: 68rem;
+  }
+
+  .dedicated_legacy {
+    width: 90rem;
+  }
+
+  .dedicated_legacy .vertical_bar {
+    height: 280rem;
+  }
+
+  .container_content {
+    height: 604rem;
+  }
+
+  .footer .container_content {
+    width: 104rem;
+  }
+}
+
+/* fim screen 1280 */
+
+/* screen 1040 - tablet grande */
+@media (max-width: 1040px) {
+
+  .container {
+    width: 90rem;
+  }
+
+  .allHeader {
+    width: 76rem;
+  }
+
+  .dedicated_home {
+    width: 90rem;
+  }
+
+  .dedicated_about {
+    width: 76rem;
+  }
+
+  .content_summary {
+    width: 55%;
+  }
+
+  .content_summary p {
+    font-size: 1.5rem;
+  }
+
+  .content_summary p a {
+    font-size: 1.5rem;
+  }
+
+  .content_curiosities {
+    width: 45%;
+  }
+
+  .content_curiosities h2 {
+    font-size: 1.7rem;
+  }
+
+  .content_curiosities h3 {
+    font-size: 1.4rem;
+  }
+
+  .dedicated_life {
+    width: 76rem;
+    margin: 5rem auto 7rem auto;
+  }
+
+  .text_form {
+    font-size: 1.5rem;
+  }
+
+  .vertical_bar {
+    height: 52rem;
+  }
+
+  .dedicated_legacy {
+    width: 76rem;
+    display: block;
+  }
+
+  .content_plato {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .content_plato .title_form {
+    text-align: center;
+  }
+
+  .content_legacy {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .content_legacy .title_form {
+    margin-top: 7rem;
+    text-align: center;
+  }
+
+  .dedicated_legacy .vertical_bar {
+    display: none;
+  }
+
+  .container_content {
+    height: 480rem;
+  }
+
+  .footer .container_content {
+    width: 90rem;
+  }
+
+  .title_footer h2 {
+    font-size: 7rem;
+  }
+}
+
+/* fim screen 1040 */
+
+/* screen 900 - tablet */
+@media (max-width: 900px) {
+
+  .container {
+    width: 76rem;
+  }
+
+  /* header (screen 900) */
+  .allHeader {
+    justify-content: center;
+  }
+
+  .allHeader .menu {
+    display: none;
+  }
+
+  /* hero (screen 900) */
+  .dedicated_home {
+    width: 76rem;
+  }
+
+  .dedicated_home h1 {
+    font-size: 4rem;
+  }
+
+  .dedicated_home h2 {
+    font-size: 2.5rem;
+  }
+
+  .dedicated_home img {
+    width: 20rem;
+  }
+
+  .dedicated_home h3 {
+    font-size: 1.2rem;
+  }
+
+  .dedicated_home .phrase {
+    width: 55rem;
+  }
+
+  .dedicated_home .phrase h3 {
+    font-size: 1.3rem;
+  }
+
+  /* about1 (screen 900) */
+  .dedicated_about {
+    width: 60rem;
+  }
+
+  .content_summary {
+    width: 55%;
+  }
+
+  .content_summary p {
+    font-size: 1.3rem;
+  }
+
+  .content_summary p a {
+    font-size: 1.3rem;
+  }
+
+  .content_curiosities {
+    width: 45%;
+  }
+
+  .content_curiosities h2 {
+    font-size: 1.2rem;
+  }
+
+  .content_curiosities h3 {
+    font-size: 1rem;
+  }
+
+  .vertical_bar {
+    height: 45rem;
+  }
+
+  /* about2 (screen 900) */
+  .dedicated_life {
+    width: 60rem;
+  }
+
+  .text_form {
+    font-size: 1.3rem;
+  }
+
+  .title_form a {
+    font-size: 3rem;
+  }
+
+  .horizontal_bar {
+    height: 0.5rem;
+  }
+
+  /* about3 (screen 900) */
+  .dedicated_legacy {
+    width: 60rem;
+  }
+
+  .content_plato {
+    padding: 0;
+  }
+
+  .content_legacy {
+    padding: 0;
+  }
+
+  .container_content {
+    height: 484rem;
+  }
+
+  /* footer (screen 900) */
+  .footer .container_content {
+    width: 76rem;
+  }
+
+  .title_footer h2 {
+    font-size: 7rem;
+  }
+
+  .copy_footer h3 {
+    width: 55rem;
+    font-size: 1.2rem;
+  }
+
+  .footer .container_content {
+    height: 40rem;
+  }
+
+  .copy_footer h3 a {
+    font-size: 1rem;
+  }
+}
+
+/* fim screen 900 */
+
+/* screen 768 - celular grande */
+@media (max-width: 768px) {
+
+  .container {
+    width: 57rem;
+  }
+
+  /* header (screen 768) */
+  .allHeader .logo h1 {
+    font-size: 2.5rem;
+  }
+
+  /* hero (screen 768) */
+  .dedicated_home {
+    width: 57rem;
+    padding: 7rem 0;
+  }
+
+  .dedicated_home h1 {
+    font-size: 3rem;
+  }
+
+  .dedicated_home h2 {
+    font-size: 2rem;
+  }
+
+  .dedicated_home h3 {
+    font-size: 1rem;
+  }
+
+  .dedicated_home .phrase {
+    width: 40rem;
+  }
+
+  .dedicated_home .phrase h3 {
+    font-size: .9rem;
+  }
+
+  /* about1 (screen 768) */
+  .dedicated_about {
+    width: 40rem;
+    display: block;
+  }
+
+  .content_summary {
+    width: 100%;
+  }
+
+  .content_curiosities {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+
+  .content_curiosities h2 {
+    font-size: 1.3rem;
+  }
+
+  .content_curiosities h3 {
+    font-size: 1.2rem;
+  }
+
+  .content_summary p {
+    font-size: 1rem;
+  }
+
+  .content_summary p a {
+    font-size: 1rem;
+  }
+
+  .vertical_bar {
+    display: none;
+  }
+
+  /* about2 (screen 768) */
+  .dedicated_life {
+    width: 40rem;
+  }
+
+  .text_form {
+    font-size: 1rem;
+  }
+
+  .title_form a {
+    font-size: 2.3rem;
+  }
+
+  .horizontal_bar {
+    width: 15rem;
+    height: 0.4rem;
+  }
+
+  /* about3 (screen 768) */
+  .dedicated_legacy {
+    width: 40rem;
+  }
+
+  .container_content {
+    height: 393rem;
+  }
+
+  .content_legacy .title_form {
+    margin-top: 5rem;
+  }
+
+  .content_legacy p {
+    font-size: 1rem;
+  }
+
+  /* footer (screen 768) */
+  .footer .container_content {
+    width: 57rem;
+  }
+
+  .title_footer h2 {
+    font-size: 5rem;
+  }
+
+  .copy_footer h3 {
+    width: 40rem;
+    font-size: 1rem;
+  }
+
+  .copy_footer h3 a {
+    font-size: 1rem;
+  }
+}
+
+/* fim screen 768 */
+
+/* screen 500 - celular grande */
+@media (max-width: 500px) {
+
+  .container {
+    width: 37rem;
+  }
+
+  /* header (screen 500) */
+  header {
+    height: 5rem;
+  }
+
+  .allHeader .logo h1 {
+    font-size: 2rem;
+  }
+
+  /* hero (screen 500) */
+  .dedicated_home {
+    width: 37rem;
+    padding: 5rem 0;
+  }
+
+  .dedicated_home h2 {
+    font-size: 1.5rem;
+  }
+
+  .dedicated_home h3 {
+    font-size: 1rem;
+  }
+
+  .dedicated_home img {
+    width: 20rem;
+  }
+
+  .dedicated_home .phrase {
+    width: 25rem;
+  }
+
+  .dedicated_home .phrase h3 {
+    font-size: .7rem;
+  }
+
+  /* about1 (screen 500) */
+  .dedicated_about {
+    width: 25rem;
+  }
+
+  .content_curiosities {
+    width: 100%;
+  }
+
+  .content_curiosities h2 {
+    font-size: 1rem;
+  }
+
+  .content_curiosities h3 {
+    font-size: .9rem;
+  }
+
+  /* about2 (screen 500) */
+  .dedicated_life {
+    width: 25rem;
+    margin: 5rem auto 7rem auto;
+  }
+
+  .title_form a {
+    font-size: 1.8rem;
+  }
+
+  .horizontal_bar {
+    width: 12rem;
+    height: 0.3rem;
+    margin: -2rem auto;
+  }
+
+  /* about3 (screen 500) */
+  .dedicated_legacy {
+    width: 25rem;
+  }
+
+  .container_content {
+    height: 536rem;
+  }
+
+  /* footer (screen 500) */
+  .footer .container_content {
+    width: 37rem;
+  }
+
+  .title_footer h2 {
+    font-size: 3.5rem;
+  }
+
+  .copy_footer h3 {
+    width: 25rem;
+    font-size: .7rem;
+  }
+
+  .copy_footer h3 a {
+    font-size: .7rem;
+  }
+
+  .copy_footer p {
+    font-size: 1.2rem;
+  }
+}
+
+/* fim screen 500 */
+/* FIM MEDIA SCREEN */
