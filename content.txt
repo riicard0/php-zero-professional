@@ -1,8 +1,11 @@
 >>> CONTINUAR DE <<<
 
-  - Exercício: Página de tributo
+  - Aula: "Exercício: Um formulário de pesquisa"
+	- Pesquisar semântica certa para formulário
+	- Será uma única tela para Cadastro de Alunos
+	- CSS será feito com GRID Layout
 
-
+  - Fazer "read.me" detalhado de todos projetos feitos até o momento.
 
 
 
