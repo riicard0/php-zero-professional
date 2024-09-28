@@ -1,10 +1,10 @@
 ![Imgur](https://i.imgur.com/Bym2Q2L.png)
 
 # Projeto
-Portal de notícias
+Página de tributo
 
 ## 🔥 Introdução
-O objetivo desse projeto é ser simples, apenas para assimilação e desenvolvimento de aprendizado de HTML, CSS e Javascript. Basicamente o primeiro projeto feito junto ao professor Bonieky Lacerda no curso "PHP do Zero ao Profissional".
+O objetivo desse projeto é ser simples, apenas para assimilação e desenvolvimento de aprendizado. Vale ressaltar que é um projeto individual e foi instruído a fazer uma página de tributo como exercício.
 
 ## 📦 Tecnologias
 
@@ -19,18 +19,18 @@ O objetivo desse projeto é ser simples, apenas para assimilação e desenvolvim
  * *Front-End* - [Ricardo](https://github.com/riicard0)
 
 ## 📄 Licença
-Projeto disponibilizado pela plataforma de cursos B7Web (Bonieky Lacerda).
+Sem licença até o momento, feito exclusivamente por mim.
 
 ## 💭 FAQ
 
 ### > Qual a função do projeto?
-Apenas desenvolver um portal de notícias simples.
+Apenas desenvolver uma página de tributo simples e individual.
 
 ### > Feito sozinho ou por video-aula?
-A maior parte foi pela video-aula do professor, algumas coisas pesquisei por fora e implementei por conta própria para melhor estética.
+Feito completamente sozinho, até mesmo o personagem escolhido, as pesquisas, os códigos, etc.
 
 ### > Quantas video-aulas foram feitas?
-O projeto foi desenvolvido em 13 video-aulas.
+Nenhuma.
 
 ### > Fez deploy do projeto?
 Não, projeto muito pequeno e simples, não foi necessário. Para visualização do projeto, deixarei abaixo algumas imagens para demonstração.
@@ -41,10 +41,16 @@ Não, projeto muito pequeno e simples, não foi necessário. Para visualização
 ## 📸 Printscreen
 
 ### Imagem 1:
-![Imgur](https://i.imgur.com/Lmy9LVg.png)
+![Imgur](https://i.imgur.com/LyXZ4kh.png)
 
 ### Imagem 2:
-![Imgur](https://i.imgur.com/FJffcco.png)
+![Imgur](https://i.imgur.com/DNbZTYD.png)
+
+### Imagem 3:
+![Imgur](https://i.imgur.com/Sh9fUxB.png)
+
+### Imagem 4:
+![Imgur](https://i.imgur.com/IK4ymne.png)
 
 ### Full Website:
-![Imgur](https://i.imgur.com/So6b4H8.jpg)
+![Imgur](https://i.imgur.com/jkYHyD7.jpg)
