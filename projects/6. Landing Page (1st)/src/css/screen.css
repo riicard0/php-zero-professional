@@ -1,0 +1,15 @@
+/* RESPONSIVENESS CSS */
+
+@media screen and (max-width: 1170px) {
+
+  /* menu */
+  #nav_list,
+  #navbar .btn-default {
+    display: none;
+  }
+
+  /* mobile menu */
+  #mobile_btn {
+    display: block;
+  }
+}

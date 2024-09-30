@@ -8,18 +8,76 @@
 
   <title>Landing Page - MartinsR</title>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/button.css">
+  <link rel="stylesheet" href="src/css/screen.css">
 </head>
 
 <body>
   <div class="container">
 
-    ola
+    <header class="header">
+      <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav_logo">FOOD</i>
+
+        <!-- MENU -->
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+
+        </ul>
+
+        <button class="btn-default">
+          Peça aqui
+        </button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <!-- MOBILE MENU -->
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+
+        </ul>
+
+        <button class="btn-default">
+          Peça aqui
+        </button>
+
+      </div>
+    </header>
 
 
   </div>
 
-  <script src="js/script.js"></script>
+  <script src="src/js/script.js"></script>
 </body>
 
 </html>
