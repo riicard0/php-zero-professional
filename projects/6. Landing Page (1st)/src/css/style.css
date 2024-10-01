@@ -22,6 +22,10 @@ body {
   background-color: var(--bg-color-1);
 }
 
+section {
+  padding: 28px 8%;
+}
+
 /* VARIABLES */
 :root {
   --color-1: #000;
@@ -32,6 +36,7 @@ body {
   --color-6: #ffe100;
   --color-7: #ffcb45;
   --color-8: #f8d477;
+  --color-9: #ffe8b4;
 
   --font-1: "Poppins", sans-serif;
 
