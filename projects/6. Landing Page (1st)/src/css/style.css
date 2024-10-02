@@ -1,7 +1,7 @@
 /* - GENERAL CSS - */
 
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* IMPORT */
+@import url('import.css');
 
 /* ALL WEBSITE */
 * {
@@ -26,6 +26,15 @@ section {
   padding: 28px 8%;
 }
 
+.section-title {
+  color: var(--color-3);
+  font-size: 1.563rem;
+}
+
+.section-subtitle {
+  font-size: 2.1875rem;
+}
+
 /* VARIABLES */
 :root {
   --color-1: #000;
@@ -37,10 +46,10 @@ section {
   --color-7: #ffcb45;
   --color-8: #f8d477;
   --color-9: #ffe8b4;
+  --color-10: #fff9ea;
+  --color-11: #434343;
 
   --font-1: "Poppins", sans-serif;
 
   --bg-color-1: #fff9ea;
 }
-
-/* --------------------------------------------- */

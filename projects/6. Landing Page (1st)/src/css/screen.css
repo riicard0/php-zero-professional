@@ -1,4 +1,4 @@
-/* RESPONSIVENESS CSS */
+/* - RESPONSIVENESS CSS - */
 
 @media screen and (max-width: 1170px) {
 
@@ -52,5 +52,75 @@
     width: 100%;
     text-align: center;
     align-items: center;
+  }
+
+  /* CARDÁPIO-MENU */
+  #dishes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dish {
+    width: calc(50% - 12px);
+  }
+
+  /* TESTIMONIALS */
+  #testimonials {
+    flex-direction: column;
+  }
+
+  #testimonials .section-subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #testimonial_chef {
+    display: none;
+  }
+
+  #testimonials_content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  /* HOME */
+  #phone_button button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* CARDÁPIO-MENU */
+  .dish {
+    width: 100%;
+  }
+
+  #menu .section-subtitle {
+    text-align: center;
+  }
+
+  /* TESTIMONIALS */
+  #testimonials .section-subtitle {
+    font-size: 2rem;
+  }
+
+  #testimonials_content {
+    width: 100%;
+  }
+
+  .feedback {
+    flex-direction: column;
+  }
+
+  /* FOOTER */
+  #footer_items {
+    flex-direction: column;
+    gap: 20px;
   }
 }
