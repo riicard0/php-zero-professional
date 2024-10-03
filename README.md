@@ -1,11 +1,13 @@
 ![Imgur](https://i.imgur.com/Bym2Q2L.png)
 
 # Projetos
-- [Portal](https://github.com/riicard0/php-zero-professional/tree/main/projects/portal)
-- [MediCenter](https://github.com/riicard0/php-zero-professional/tree/main/projects/3.%20flexbox%20website)
-- [Tribute Page](https://github.com/riicard0/php-zero-professional/tree/main/projects/4.%20Tribute%20Page)
-- [Formulário](https://github.com/riicard0/php-zero-professional/tree/main/projects/5.%20Formul%C3%A1rio)
-- [Landing Page 1]()
+- [Portal](https://b7web-1.vercel.app)
+- [MediCenter](https://b7web-3.vercel.app)
+- [Tribute Page](https://b7web-4.vercel.app)
+- [Formulário](https://b7web-5.vercel.app)
+- [Landing Page 1](https://b7web-6.vercel.app)
+
+Obs.: O deploy de todos os projetos foram feitos no Vercel.
 
 ## 🔥 Introdução
 O objetivo desse repositório é publicar meus projetos feitos no curso "PHP do Zero ao Profissional" (Bonieky Lacerda).
@@ -29,8 +31,7 @@ Projeto disponibilizado pela plataforma de cursos B7Web (Bonieky Lacerda).
 
 ### > Visualização dos projetos:
 Entre na pasta:
-``` projects ```
-, lá estará disponibilizado os projetos feitos até o momento, organizados de forma cronológica.
+```projects```, lá estará disponibilizado os projetos feitos até o momento, organizados de forma cronológica.
  
 ## 💡 Agradecimentos
 * Um agradecimento ao professor pelo aprendizado

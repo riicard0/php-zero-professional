@@ -33,7 +33,7 @@ Feito completamente sozinho, até mesmo o personagem escolhido, as pesquisas, os
 Nenhuma.
 
 ### > Fez deploy do projeto?
-Não, projeto muito pequeno e simples, não foi necessário. Para visualização do projeto, deixarei abaixo algumas imagens para demonstração.
+[Deploy](https://b7web-4.vercel.app/)
  
 ## 💡 Agradecimentos
 * Um agradecimento ao professor pelo aprendizado

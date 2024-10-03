@@ -26,3 +26,10 @@ Dica rápida CSS no VS Code:
     aparecerá, coloque a variável (que estará contendo a cor) no campo e será substituído 
     automaticamente pressionando as teclas "CTRL + Alt + Enter". Ex.: "var(--color-1)"
 
+IDEIA DE MELHORIA:
+
+  - Colocar html em seções como foi feito no css para maior organização.
+  - Colocar um ícone na aba do navegador do site
+  - 
+
+https://b7web-6.vercel.app/

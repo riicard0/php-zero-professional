@@ -34,7 +34,7 @@ Feito através de uma video-aula no YouTube, dentre vários vídeos escolhi esse
 Apenas uma.
 
 ### > Fez deploy do projeto?
-Não, projeto muito pequeno e simples, não foi necessário. Para visualização do projeto, deixarei abaixo algumas imagens para demonstração.
+[Deploy](https://b7web-5.vercel.app/)
 
 ### > Cite os diferenciais:
 Foi feito um formulário de cadastro mais atual, contendo validações: 

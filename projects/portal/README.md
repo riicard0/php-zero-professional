@@ -33,7 +33,8 @@ A maior parte foi pela video-aula do professor, algumas coisas pesquisei por for
 O projeto foi desenvolvido em 13 video-aulas.
 
 ### > Fez deploy do projeto?
-Não, projeto muito pequeno e simples, não foi necessário. Para visualização do projeto, deixarei abaixo algumas imagens para demonstração.
+<!-- Não, projeto muito pequeno e simples, não foi necessário. Para visualização do projeto, deixarei abaixo algumas imagens para demonstração. -->
+[Deploy](https://b7web-1.vercel.app/)
  
 ## 💡 Agradecimentos
 * Um agradecimento ao professor pelo aprendizado
