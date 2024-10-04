@@ -1,11 +1,12 @@
 /* - IMPORTS CSS - */
 
 /* CSS files */
-@import url('header.css');
-@import url('home.css');
-@import url('menu.css');
-@import url('testimonials.css');
-@import url('footer.css');
+@import url('sections/header.css');
+@import url('sections/home.css');
+@import url('sections/menu.css');
+@import url('sections/testimonials.css');
+@import url('sections/footer.css');
+
 @import url('button.css');
 @import url('screen.css');
 
