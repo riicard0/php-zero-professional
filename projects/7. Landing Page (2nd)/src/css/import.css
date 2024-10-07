@@ -1,0 +1,14 @@
+/* - GENERAL IMPORTs - */
+
+/* FONTS */
+/* font-family Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family Barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* WEBSITE */
+
+@import url('./reset.css');
+@import url('./screen.css');
+@import url('./sections/header.css');

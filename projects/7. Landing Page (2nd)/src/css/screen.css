@@ -1,0 +1,193 @@
+/* - GENERAL RESPONSIVENESS - */
+
+@media screen and (max-width: 768px) {
+
+  /* global style */
+  h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 66px;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  h6 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 14px 30px 14px 30px;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 14px 30px 14px 30px !important;
+  }
+
+  .flex-sb {
+    flex-wrap: wrap;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  /* global style */
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 26px 12px 26px;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 26px 12px 26px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+  /* global style */
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 26px 12px 26px;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 26px 12px 26px !important;
+  }
+}
