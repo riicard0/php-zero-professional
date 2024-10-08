@@ -30,14 +30,19 @@ html {
 :root {
   --color-1: #000;
   --color-2: #fff;
-  /* --color-3:  */
-  /* --color-4:  */
-  /* --color-5:  */
-  /* --color-6:  */
-  /* --color-7:  */
-  /* --color-8:  */
+  --color-3: #d3c9c1;
+  --color-4: #7436bb;
+  --color-5: #b420a3;
+  --color-6: #f57c48;
+  --color-7: #3d0541;
+  --color-8: #b520a3;
   /* --color-9:  */
   /* --color-10: */
+  /* --color-11: */
+  /* --color-12: */
+  /* --color-13: */
+  /* --color-14: */
+  /* --color-15: */
 
   /* --font-1:  */
 }

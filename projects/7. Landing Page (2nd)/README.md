@@ -55,13 +55,12 @@ Lembrar de dizer que o site é totalmente dele pois é vendido comercialmente.
 ----------------------------------------
 
 - About Class Video:
-  - Eu parei: 10:58 (CSS)
+  - Eu parei: 10:58 - Até: 12:45 (CSS)
 
 	Não utilizei esse código ainda pois não sabia quais elementos iriam ser manipulados, depois 
 	colocar esses códigos no css do projeto.
 
-	Foram poucos minutos de código, veja abaixo da onde continuei o projeto.
+	Foram poucos minutos de código.
 
-  - Eu continuei de: 12:45
-  - Até: 14:24
+  - Parei em: 24:50
 
