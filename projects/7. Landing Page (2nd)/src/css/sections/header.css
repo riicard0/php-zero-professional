@@ -122,3 +122,144 @@ nav li a.active,
   display: block;
   width: 100%;
 }
+
+.nav-right {
+  gap: 45px;
+}
+
+.nav-right p {
+  color: var(--color-3);
+}
+
+.nav-right span {
+  color: var(--color-6);
+}
+
+.fa-magnifying-glass {
+  color: var(--color-2);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-right .fa-magnifying-glass:active {
+  color: var(--color-9);
+  transform: scale(0.8);
+}
+
+.nav-right .fa-bars {
+  color: var(--color-2);
+  font-size: 22px;
+  background-color: var(--color-10);
+  padding: 7px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-right .fa-bars:active {
+  transform: scale(0.9);
+}
+
+/* sidebar */
+.sidepanel {
+  background-color: var(--color-7);
+  z-index: 10;
+  position: fixed;
+  width: 320px;
+  height: 100vh;
+  top: 0;
+  left: -320px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 40px 20px 20px 20px;
+}
+
+.sidebar {
+  justify-content: space-between;
+}
+
+.sidebar img {
+  width: 100px;
+}
+
+.sidebar button {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(42deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  padding: 10px 12px 10px 12px;
+  margin-bottom: -15px;
+  border-radius: 0.25em;
+  border: 1.5px solid var(--color-5);
+  color: var(--color-2);
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: inherit;
+}
+
+.sidebar a {
+  padding: 10px 0;
+}
+
+aside ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+aside ul li {
+  margin: 15px 0;
+}
+
+aside li a {
+  color: var(--color-3);
+  transition: 500ms;
+  padding: 10px 0;
+}
+
+aside ul li a.active {
+  color: var(--color-6);
+}
+
+aside ul li a:hover {
+  color: var(--color-6);
+  transition: 500ms;
+}
+
+aside .pages {
+  font-weight: 500;
+  color: var(--color-3);
+  margin: 11px 0 7px 0;
+}
+
+.collapse-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.collapse-btn i {
+  border: 1px solid var(--color-3);
+  padding: 7px 8px;
+  border-radius: 40px;
+}
+
+.collapse-btn i:hover {
+  border: 1px solid var(--color-6);
+}
+
+.plus-collapse {
+  margin: -58px 0 0 0;
+  height: 45px;
+}
+
+#pages {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.show {
+  height: 500px !important;
+  transition: height 0.34s ease;
+}
