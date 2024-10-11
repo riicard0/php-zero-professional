@@ -263,3 +263,181 @@ aside .pages {
   height: 500px !important;
   transition: height 0.34s ease;
 }
+
+/* Search Bar */
+#search_bar {
+  background-color: var(--color-14);
+  width: 100%;
+  height: 0;
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  border-radius: 0px;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+#search_bar div:first-child {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  right: 0;
+  background: linear-gradient(42deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  border: 1.5px solid var(--color-5);
+  color: var(--color-2);
+  margin: 30px;
+  cursor: pointer;
+}
+
+#search_bar div:first-child:hover {
+  background: inherit;
+}
+
+#search_bar form {
+  border-radius: 50px;
+  border: 1px solid var(--color-15);
+  background: var(--color-16);
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search_bar form input {
+  border-radius: 50px;
+  background: var(--color-16);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: var(--color-2);
+  font-size: 18px;
+  width: 100%;
+}
+
+#search_bar form button {
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+/* Right Sidebar */
+.header-right-sidebar {
+  width: 355px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  right: -355px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 60px 25px 20px 30px;
+  z-index: 2;
+  background: var(--color-3);
+}
+
+/* RIGHT SIDEBAR MEE CODE - START */
+.header-right-sidebar a img {
+  width: 100px;
+}
+
+.close-right-sidebar {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(42deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  padding: 10px 12px 10px 12px;
+  border-radius: 0.25em;
+  border: 1.5px solid var(--color-5);
+  color: var(--color-2);
+  cursor: pointer;
+}
+
+.close-right-sidebar:hover {
+  background: inherit;
+}
+
+.header-right-sidebar p {
+  margin: 25px 0;
+  color: var(--color-1);
+  font-weight: 500;
+}
+
+.btn-discover-more {
+  width: 180px;
+  height: 50px;
+  background: linear-gradient(42deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 1.5px solid var(--color-5);
+  color: var(--color-2);
+  margin: 30px auto;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.btn-discover-more:hover {
+  background: linear-gradient(42deg, var(--color-5) 0.01%, var(--color-4) 100%);
+  opacity: 100%;
+}
+
+.header-right-sidebar hr {
+  background: var(--color-1);
+  width: 100%;
+  height: 4px;
+  margin-bottom: 30px;
+}
+
+.header-right-sidebar h4 {
+  margin-bottom: 20px;
+  color: var(--color-1);
+}
+
+.header-right-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.header-right-sidebar ul li {
+  display: flex;
+}
+
+.header-right-sidebar ul li i {
+  color: var(--color-12);
+  padding-right: 15px;
+  font-size: 1rem;
+}
+
+.text-lowercase {
+  color: var(--color-1);
+  font-size: 16px;
+}
+
+.header-right-sidebar ul .text-lowercase:hover {
+  color: var(--color-9);
+}
+
+.header-right-sidebar .social {
+  position: absolute;
+  bottom: 30px;
+  left: 25%;
+  gap: 20px;
+}
+
+.header-right-sidebar .social i {
+  color: var(--color-12);
+  font-size: 2rem;
+}
+
+.header-right-sidebar .social i:hover {
+  color: var(--color-9);
+  text-shadow: 1px 1px 2px var(--color-1);
+}
+
+/* RIGHT SIDEBAR MEE CODE - END */

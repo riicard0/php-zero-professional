@@ -12,6 +12,13 @@ Obs.: O deploy de todos os projetos foram feitos no Vercel.
 ## 🔥 Introdução
 O objetivo desse repositório é publicar meus projetos feitos no curso "PHP do Zero ao Profissional" (Bonieky Lacerda).
 
+## Ícones
+
+- :package: Nova Funcionalidade
+- :up: Atualização
+- :beetle: Correção de bug
+- :checkered_flag: Release
+
 ## 📦 Tecnologias Utilizadas até o momento
 
 **Front-end:**

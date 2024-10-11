@@ -25,3 +25,49 @@ function closeNav(){
         console.error('error: side panel not found');
     }
 }
+
+// Search Bar
+function open_search(){
+    'use strict';
+    const searchpanel = document.getElementById('search_bar');
+
+    if(searchpanel){
+        searchpanel.style.height = '100vh';
+        searchpanel.style.borderRadius = '0';
+    } else {
+        console.error('error: search panel not found');
+    }
+}
+
+function close_search(){
+    'use strict';
+    const searchpanel = document.getElementById('search_bar');
+    if(searchpanel){
+        searchpanel.style.height = '0';
+        searchpanel.style.borderTopLeftRadius = '100%';
+        searchpanel.style.borderTopRightRadius = '100%';
+    } else {
+        console.error('error: search panel not found');
+    }
+}
+
+// Right Sidebar
+function open_rightSidebar(){
+    'use strict';
+    const rightSidebar = document.getElementById('right_sidebar');
+    if(rightSidebar){
+        rightSidebar.style.right = '0';
+    } else {
+        console.error('error: right sidebar not found');
+    }
+}
+
+function close_rightSidebar(){
+    'use strict';
+    const rightSidebar = document.getElementById('right_sidebar');
+    if(rightSidebar){
+        rightSidebar.style.right = '-355px';
+    } else {
+        console.error('error: right sidebar not found');
+    }
+}

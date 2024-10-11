@@ -78,8 +78,8 @@
             <div class="nav-right flex">
               <p>Call Us: <span>+123 456 7890</span></p>
               <!-- header buttons -->
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-bars"></i>
+              <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
+              <i onclick="open_rightSidebar()" class="fa-solid fa-bars"></i>
             </div>
 
           </nav>
@@ -123,7 +123,54 @@
           </aside>
 
           <!-- searchbar -->
+          <div id="search_bar">
+            <div onclick="close_search()" class="btn-hover1">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
 
+            <form action="#" method="search">
+              <input type="search" required placeholder="Search...">
+              <button type="submit" class="btn-hover1">Search</button>
+            </form>
+          </div>
+
+          <!-- Right Sidebar -->
+          <section class="header-right-sidebar" id="right_sidebar">
+            <div class="flex flex-sb">
+              <a href="#"><img src="./src/assets/images/right-side-logo.png" alt="Logotipo"></a>
+              <button onclick="close_rightSidebar()" class="close-right-sidebar btn-hover1"><i
+                  class="fa-solid fa-xmark"></i></button>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nisi incidunt eum possimus unde ipsum
+              repellat cumque? Quos, dolore quam.</p>
+            <a href="#" class="btn-discover-more btn-hover1">Discover More</a>
+            <hr>
+            <h4>Connected details:</h4>
+            <ul class="flex">
+              <li>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <a href="#" class="text-lowercase">+123 456 7890</a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" class="text-lowercase">yourname@gmail.com</a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fa-solid fa-regular fa-clock"></i></a>
+                <a href="#" class="text-lowercase">Office hours: 8AM - 11PM Sunday - Weekend Day</a>
+              </li>
+
+            </ul>
+
+            <span class="social flex">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+          </section>
 
         </header>
 
