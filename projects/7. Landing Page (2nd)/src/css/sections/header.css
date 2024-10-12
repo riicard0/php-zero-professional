@@ -322,6 +322,8 @@ aside .pages {
 #search_bar form button {
   transition: all 0.3s ease;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 /* Right Sidebar */

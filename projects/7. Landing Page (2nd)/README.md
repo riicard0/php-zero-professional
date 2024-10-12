@@ -2,7 +2,10 @@
 
 # Projeto
 <div align="center"> Acesse o projeto:
-[Digital Services](b7web-7.vercel.app)
+
+[Digital Services](https://b7web-7.vercel.app/)
+
+</div>
 
 ------------------------------------------------
 
@@ -16,6 +19,7 @@ Responsive Design Principles
 CSS Styling Tricks for a Professional Look
 Engaging Animations with JavaScript
 User-Friendly Navigation and Interactivity
+"Ease CSS" personalizado da maneira que quisermos para melhor performance do código
 
 Website Info :
 Pages :	1
@@ -53,14 +57,3 @@ Lembrar de dizer que o site é totalmente dele pois é vendido comercialmente.
   - 
 
 ----------------------------------------
-
-- About Class Video:
-  - Eu parei: 10:58 - Até: 12:45 (CSS)
-
-	Não utilizei esse código ainda pois não sabia quais elementos iriam ser manipulados, depois 
-	colocar esses códigos no css do projeto.
-
-	Foram poucos minutos de código.
-
-  - Parei em: 24:50
-

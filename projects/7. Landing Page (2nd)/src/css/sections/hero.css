@@ -1,0 +1,63 @@
+/* ======= 1.2 Hero Section ======= */
+
+.hero {
+  background-image: url('../../assets/images/background/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 172px 0 279px 0;
+}
+
+.hero .container {
+  position: relative;
+}
+
+.hero h1 {
+  color: var(--color-2);
+  letter-spacing: 3.75px;
+  text-transform: uppercase;
+}
+
+.hero-social-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+
+.hero-social-icon a {
+  padding: 16px 38px 16px 38px !important;
+}
+
+.hero-social-icon a i {
+  font-size: 26px;
+  background: linear-gradient(0deg, var(--color-17) 0.5%, var(--color-18) 100%);
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-social-icon a i:hover {
+  background: linear-gradient(0deg, var(--color-12) 0.5%, var(--color-13) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-social-icon hr {
+  display: block;
+  margin-top: 68px;
+  opacity: 1;
+  color: var(--color-2);
+  width: 110px;
+  rotate: 90deg;
+}
+
+.center-data h3 {
+  color: var(--color-2);
+  text-transform: uppercase;
+}
+
+.center-btn a {
+  padding: 16px 38px;
+}
