@@ -1,1 +1,124 @@
 /* ======= 1.5 About Section ======= */
+
+.about {
+  background: var(--color-7);
+  padding: 100px 0;
+}
+
+.about-data {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-1 * var(--bs-gutter-x));
+  margin-left: calc(-1 * var(--bs-gutter-x));
+}
+
+.about hr {
+  opacity: 1.25;
+  height: 1px;
+  color: var(--color-8);
+  width: 60px;
+  border: 1px solid;
+}
+
+.about-data h2 {
+  margin: 20px 0;
+  color: var(--color-2);
+}
+
+.about h5 {
+  color: var(--color-2);
+  font-weight: 400;
+  font-family: 'Barlow', sans-serif;
+}
+
+.about p {
+  color: var(--color-2);
+  width: 90%;
+}
+
+.about i {
+  border: 2px solid var(--color-18);
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 20px;
+  background: linear-gradient(66deg, var(--color-17) 0.87%, var(--color-18) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-data a {
+  padding: 16px 38px !important;
+}
+
+.about-img {
+  position: relative;
+  background-image: url('../../assets/images/background/about-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-img figure {
+  background: linear-gradient(42deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  width: fit-content;
+  clip-path: circle(45% at 50% 50%);
+  transition: all 0.8s ease;
+}
+
+.about-img figure:hover {
+  transform: scale(1.05);
+  transition: all 0.8s ease;
+}
+
+.about-img img {
+  width: 85%;
+  display: block;
+  margin: auto;
+  clip-path: circle(48% at 50% 50%);
+}
+
+.ab-count {
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-12) 0%, var(--color-13) 100%);
+  color: var(--color-2);
+  position: absolute;
+  bottom: -18px;
+  left: 118px;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+
+.ab-count h2 {
+  margin: 0;
+}
+
+.about-hr {
+  color: var(--color-2);
+  position: absolute;
+  right: -50px;
+  bottom: 25px;
+  rotate: -90deg;
+}
+
+.about-hr hr {
+  opacity: 1.25;
+  height: 1px;
+  border: 1px solid var(--color-8);
+  width: 60px;
+}
+
+.ab-count p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.about-hr h6 {
+  letter-spacing: 3.72px;
+  text-transform: uppercase;
+}
