@@ -20,6 +20,7 @@ CSS Styling Tricks for a Professional Look
 Engaging Animations with JavaScript
 User-Friendly Navigation and Interactivity
 "Ease CSS" personalizado da maneira que quisermos para melhor performance do código
+Slick.js (https://kenwheeler.github.io/slick/)
 
 Website Info :
 Pages :	1

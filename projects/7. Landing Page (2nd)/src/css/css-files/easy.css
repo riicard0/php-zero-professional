@@ -147,6 +147,10 @@
     width: 33.3333333%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .d-block {
     display: block;
 }
