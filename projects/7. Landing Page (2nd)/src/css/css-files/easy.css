@@ -1,4 +1,8 @@
 /* flex class */
+.block {
+    display: block !important;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -151,8 +155,12 @@
     width: 50%;
 }
 
-.d-block {
-    display: block;
+.w-66 {
+    width: 66.6666667%;
+}
+
+.w-100 {
+    width: 100%
 }
 
 /* button css */

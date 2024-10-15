@@ -49,10 +49,12 @@ html {
   --color-19: #150725;
   --color-20: #471133;
   --color-21: #140921;
-  /* --color-22: */
+  --color-22: #461f72;
   /* --color-23: */
   /* --color-24: */
   /* --color-25: */
 
   /* --font-1:  */
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
 }

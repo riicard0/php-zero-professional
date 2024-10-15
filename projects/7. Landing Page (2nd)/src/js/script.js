@@ -100,3 +100,24 @@ $('.sliderlogo').slick({
     },
     ]
 });
+
+// Portfolio/Gallery
+function open_img(evt, cityName){
+    let i, tabcontent, tablinks;
+
+    // hide all tab content
+    tabcontent = document.getElementsByClassName('tab-content');
+    for(i = 0; i < tabcontent.length; i++){
+        tabcontent[i].style.display = "none";
+    }
+
+    // remove active class from all tab links
+    tablinks = document.getElementsByClassName('tablinks');
+    for(i = 0; i < tablinks.length; i++){
+        tablinks[i].classList.remove("active");
+    }
+
+    // show the selected tab content and mark the corresponding tab link as active
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.classList.add('active');
+}
