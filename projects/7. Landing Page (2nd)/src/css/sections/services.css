@@ -1,1 +1,114 @@
 /* ======= 1.7 Services Section ======= */
+
+.service-1 {
+  background: var(--color-7);
+  padding: 120px 0;
+}
+
+.service-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.service-1 h5 {
+  color: var(--color-2);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.service-1 h2 {
+  color: var(--color-2);
+}
+
+.service-data p {
+  padding: 0 221px 0 0;
+}
+
+.service-1 p {
+  color: var(--color-3);
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.service-1 .service-hr1 {
+  opacity: 1.25;
+  height: 1px;
+  color: var(--color-8);
+  width: 60px;
+  border: 1px solid;
+}
+
+.service-1 hr {
+  width: 100%;
+  opacity: 1.25;
+  height: 1px;
+  color: var(--color-22);
+  border: 1px solid;
+}
+
+.service-1 .btn-hover2 {
+  padding: 15px;
+  border: 1px solid var(--color-12);
+}
+
+.service-card {
+  border: 1px solid var(--color-8);
+  background: linear-gradient(11deg, var(--color-4) 0.01%, var(--color-5) 100%);
+  box-shadow: 8px 18px 30px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px 40px 30px 40px;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card a {
+  color: var(--color-3);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100px;
+}
+
+.service-card a:hover {
+  font-weight: 700;
+  color: var(--color-2);
+  gap: 8px;
+}
+
+.service-card h3 {
+  margin: 20px 0;
+  color: var(--color-2);
+  letter-spacing: 1.25px;
+}
+
+.service-card img {
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
+.service-card figure {
+  background: var(--color-2);
+  box-shadow: 10px 17px 28px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 12px;
+  width: 124px;
+  height: 85px;
+  display: flex;
+}
+
+.service-card .slider1 {
+  width: 105px;
+}
+
+.service-card .slider2 {
+  width: 75px;
+}
+
+.service-card .slider3 {
+  width: 60px;
+}
