@@ -1,1 +1,92 @@
  /* ======= 1.9 Work Section =======  */
+
+ .work {
+   background-image: url('../../assets/images/background/work-bg.jpg');
+   background-size: cover;
+   background-position: center center;
+   padding: 120px 0;
+   margin-top: -2px;
+ }
+
+ .work h5 {
+   letter-spacing: 1px;
+ }
+
+ .work-para {
+   color: var(--color-2);
+   padding: 0 290px;
+ }
+
+ .work-line {
+   background-image: url('../../assets/images/background/work-line.png');
+   background-size: 100% 100%;
+   background-position: center;
+   min-height: 242px;
+   background-repeat: no-repeat;
+   margin: 146px 25px;
+ }
+
+ .work-line div {
+   position: absolute;
+   border-radius: 50%;
+   background: linear-gradient(11deg, var(--color-4) 0.01%, var(--color-5) 100%);
+   color: var(--color-2);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+   padding: 18px 0 32px 34px;
+ }
+
+ .work-line div:first-child {
+   top: -66px;
+   left: -30px;
+   width: 196px;
+   min-height: 196px;
+ }
+
+ .work-line div:nth-child(2) {
+   bottom: -70px;
+   left: 247px;
+   width: 180px;
+   min-height: 180px;
+ }
+
+ .work-line div:nth-child(3) {
+   right: 260px;
+   top: -66px;
+   width: 196px;
+   min-height: 196px;
+ }
+
+ .work-line div:last-child {
+   right: -49px;
+   bottom: -70px;
+   width: 180px;
+   min-height: 180px;
+ }
+
+ .work a {
+   border: 1.5px solid var(--color-12);
+   padding: 15px 30px;
+ }
+
+ .work-hr {
+   color: var(--color-2);
+   position: absolute;
+   right: 0;
+   rotate: -90deg;
+ }
+
+ .work-hr h6 {
+   letter-spacing: 3.72px;
+   text-transform: uppercase;
+ }
+
+ .work-hr hr {
+   opacity: 1.25;
+   height: 1px;
+   color: var(--color-2);
+   width: 60px;
+   border: 1px solid;
+ }
