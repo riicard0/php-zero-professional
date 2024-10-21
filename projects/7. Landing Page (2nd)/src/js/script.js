@@ -126,9 +126,9 @@ function open_img(evt, cityName){
 $('.team-slider').slick({
     arrows: false,
     dots: true,
-    infinite: false,
+    infinite: true,
     autoplay: true,
-    speed: 300,
+    autoplaySpeed: 1500,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive:[{

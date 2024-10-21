@@ -71,12 +71,12 @@
   align-items: center;
   gap: 5px;
   width: 100px;
+  font-weight: 700;
+  gap: 8px;
 }
 
 .service-card a:hover {
-  font-weight: 700;
   color: var(--color-2);
-  gap: 8px;
 }
 
 .service-card h3 {
