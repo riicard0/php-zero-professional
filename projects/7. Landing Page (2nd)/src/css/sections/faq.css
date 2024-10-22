@@ -1,0 +1,76 @@
+/* ======= 1.12 FAQ Section ======= */
+
+.faq {
+  background-image: url('../../assets/images/background/faq-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 120px 0;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.faq span {
+  background-color: var(--color-1);
+  opacity: 0.3;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.faq .text-center h2 {
+  color: var(--color-2);
+  padding: 0 55px 0 0;
+  text-align: left;
+}
+
+.faq h5 {
+  color: var(--color-2);
+}
+
+.faq .text-center p {
+  color: var(--color-2);
+  padding: 0 123px 0 0;
+  text-align: left;
+}
+
+.faq .faq-hr1 {
+  opacity: 1.25;
+  height: 1px;
+  color: var(--color-8);
+  width: 60px;
+  border: 1px solid;
+}
+
+.accordion-button {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+  color: var(--color-24);
+  font-weight: 700 !important;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.accordion-button img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-collapse p {
+  color: var(--color-27);
+  padding: 15px;
+  background-color: var(--color-2);
+}
