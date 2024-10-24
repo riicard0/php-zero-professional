@@ -1,1 +1,66 @@
 /* ======= 1.13 Blog Section ======= */
+
+.blog {
+  background: var(--color-19);
+  padding: 120px 0;
+}
+
+.blog h5 {
+  color: var(--color-2);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog h2 {
+  color: var(--color-2);
+}
+
+.blog p {
+  color: var(--color-3);
+  padding: 0 296px 0 0;
+}
+
+.blog .blog-hr1 {
+  opacity: 1.25;
+  height: 1px;
+  color: var(--color-8);
+  width: 60px;
+  border: 1px solid;
+}
+
+.blog .btn-hover2 {
+  padding: 15px 30px;
+  border: 1.5px solid var(--color-28);
+}
+
+.blog-card {
+  flex: 0 0 33.33%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.blog-card img {
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+.blog-card:hover img {
+  transform: scale(1.05);
+  opacity: .8;
+  transition: all 0.4s ease;
+}
+
+.blog-card h4 {
+  color: var(--color-3);
+  margin: 18px 0;
+  padding: 0 30px 0 0;
+}
+
+.blog-card a {
+  padding: 0 0 11px 0 !important;
+  border-bottom: 2px solid var(--color-28);
+  letter-spacing: 2px;
+  background: linear-gradient(66.75deg, var(--color-17) 0.87%, var(--color-18) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
