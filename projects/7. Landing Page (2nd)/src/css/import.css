@@ -13,7 +13,6 @@
 /* WEBSITE */
 
 @import url('./reset.css');
-@import url('./screen.css');
 @import url('./sections/header.css');
 @import url('./sections/hero.css');
 @import url('./sections/card.css');
@@ -28,3 +27,6 @@
 @import url('./sections/faq.css');
 @import url('./sections/blog.css');
 @import url('./sections/footer.css');
+@import url('./sections/backToTop.css');
+@import url('./sections/scrollbar.css');
+@import url('./screen.css');

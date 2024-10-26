@@ -76,9 +76,9 @@ function close_rightSidebar(){
 $('.sliderlogo').slick({
     arrows: false,
     dots: false,
-    infinite: false,
+    infinite: true,
     autoplay: true,
-    speed: 300,
+    autoplaySpeed: 1500,
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [{
@@ -132,7 +132,7 @@ $('.team-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive:[{
-        breakpoint: 1024,
+        breakpoint: 1400,
         settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -141,7 +141,7 @@ $('.team-slider').slick({
         }
     },
     {
-        breakpoint: 600,
+        breakpoint: 630,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 1
@@ -198,3 +198,37 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Footer
+const fom = document.getElementById('footer-form');
+const footerMessage = document.getElementById('footer-message');
+
+fom.addEventListener('submit', (event)=> {
+    event.preventDefault();
+    footerMessage.innerHTML = '~ Form Submitted success fully';
+    footerMessage.style.display = 'flex';
+    fom.reset();
+    setTimeout(() => {
+        footerMessage.style.display = 'none';
+    }, 3000);
+});
+
+// BackToTop
+window.onscroll = function() {
+    scrollFunction();
+}
+
+function scrollFunction(){
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+        document.getElementById('backToTopBtn').style.display = 'block';
+    } else {
+        document.getElementById('backToTopBtn').style.display = 'none';
+    }
+}
+
+function scrollToTop(){
+    const scrollToTopBtn = document.documentElement || document.body;
+    scrollToTopBtn.scrollIntoView({
+        behavior: 'smooth'
+    })
+}

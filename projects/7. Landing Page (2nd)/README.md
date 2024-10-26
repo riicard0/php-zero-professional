@@ -58,3 +58,11 @@ Lembrar de dizer que o site é totalmente dele pois é vendido comercialmente.
   - 
 
 ----------------------------------------
+
+responsiviness:
+
++1400px
+1400px
+1200px
+960px
+

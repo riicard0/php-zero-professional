@@ -1,0 +1,20 @@
+ /* ======= 1.15 BackToTop Section =======  */
+
+ #backToTopBtn {
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   border: none;
+   padding: 17px 20px;
+   border-radius: 10px;
+   transition: all 0.3s ease;
+   color: var(--color-11);
+   cursor: pointer;
+   z-index: 99999999999;
+   display: none;
+ }
+
+ #backToTopBtn:hover {
+   color: var(--color-2);
+   border-radius: 50%;
+ }

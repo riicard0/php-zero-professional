@@ -99,6 +99,10 @@ section {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
