@@ -232,3 +232,7 @@ a {
   transition: all 0.3s ease;
   color: #c9c3c3;
 }
+
+li {
+  list-style: none;
+}

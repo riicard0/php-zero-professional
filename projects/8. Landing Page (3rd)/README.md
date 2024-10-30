@@ -94,3 +94,12 @@ Nome do empreendimento fictício:
 
 	Exatamente o que eu queria para um projeto fictício xD
 
+Fontes:
+
+https://www.w3schools.com/jquery/jquery_get_started.asp
+
+https://cdnjs.com/libraries/jquery
+https://cdnjs.com/libraries/jquery/2.1.3
+
+https://icons.getbootstrap.com/
+https://michalsnik.github.io/aos/
