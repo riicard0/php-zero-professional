@@ -76,6 +76,8 @@ Direitos:
 	Photo by Autumn Mott Rodeheaver on Unsplash
 	Photo by Scott Goodwill on Unsplash
 	Photo by Markus Winkler on Unsplash
+	Photo by courtney coles on Unsplash
+	Photo by Gabriel Jimenez on Unsplash
 
 Nome do empreendimento fictício:
 

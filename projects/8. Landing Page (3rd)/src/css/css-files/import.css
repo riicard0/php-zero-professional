@@ -1,9 +1,10 @@
 /* IMPORT */
 
-@import url('../sections/header.css');
 @import url('../sections/button.css');
-@import url('../sections/keyframes.css');
+@import url('../sections/header.css');
+@import url('../sections/inicio.css');
 
-@import url('fonts.css');
 @import url('reset.css');
+@import url('fonts.css');
 @import url('screen.css');
+@import url('../sections/keyframes.css');

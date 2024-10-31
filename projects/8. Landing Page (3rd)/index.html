@@ -43,8 +43,9 @@
 
     <!-- Header -->
     <header class="header">
-      <div class="logo">
-        <img src="src/assets/images/logo/logo-no-bg-fazsol.png" alt="logotipo">
+      <div class="logo flex flex-center">
+        <a href="https://b7web-8.vercel.app/"><img src="src/assets/images/logo/logo-no-bg-fazsol.png"
+            alt="Logotipo Fazenda Sol"></a>
       </div>
 
       <div class="menu">
@@ -63,6 +64,8 @@
       </div>
 
       <div class="menu-aberto">
+        <span class="sombra-menu"></span>
+
         <nav class="nav-menu">
           <a href="#inicio">INÍCIO</a>
           <a href="#sobre">SOBRE</a>
@@ -73,7 +76,52 @@
 
       </div>
     </header>
-    <!-- Fim Header -->
+
+    <!-- Início -->
+    <main id="inicio" class="inicio">
+      <span class="sombra-inicio"></span>
+
+      <div class="container-inicio">
+        <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
+
+
+          <div class="titulo-inicio">
+            <h1>Fazenda Sol</h1>
+            <h1 class="destaque-inicio">Organic Store</h1>
+          </div>
+
+          <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <p>Descubra o sabor da natureza direto da fazenda! Produtos 100% orgânicos, frescos e saudáveis entregues na
+              sua porta</p>
+          </div>
+
+          <!-- Botão CTA -->
+          <button class="cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <a href="#contato"><span>Fale Comigo</span></a>
+
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+
+          </button>
+        </div>
+
+        <!-- Complemento Hero -->
+        <div class="complemento-inicio">
+          <a href="https://github.com/riicard0"><img class="text" src="src/assets/images/hero/martinsr-logo.png"
+              alt="Logotipo MartinsR Github"></a>
+
+          <img class="qr-code" src="src/assets/images/hero/martinsr-qrcode.png" alt="MartinsR QR Code">
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+
+    </section>
 
   </div>
 
@@ -122,6 +170,9 @@
   <script src="src/js/library/aos.js"></script>
 
   <!-- General Javascript -->
+  <script src="src/js/sections/header.js"></script>
+  <script src="src/js/sections/button.js"></script>
+  <script src="src/js/sections/menu.js"></script>
   <script src="src/js/script.js"></script>
 
 </body>

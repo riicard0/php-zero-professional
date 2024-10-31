@@ -7,6 +7,7 @@
 - [Formulário](https://b7web-5.vercel.app)
 - [Landing Page 1](https://b7web-6.vercel.app)
 - [Landing Page 2](https://b7web-7.vercel.app)
+- [Landing Page 3](https://b7web-8.vercel.app)
 
 Obs.: O deploy de todos os projetos foram feitos no Vercel.
 

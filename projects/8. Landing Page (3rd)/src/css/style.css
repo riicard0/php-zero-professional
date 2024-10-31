@@ -12,7 +12,7 @@
   --color-5: #f6f6f6;
   --color-6: #e7fc00;
   --color-7: #728e6f;
-  /* --color-8:  */
+  --color-8: #24D366;
   /* --color-9:  */
   /* --color-10:  */
 
@@ -43,8 +43,13 @@
 }
 
 /* Website */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: var(--color-5);
   width: 100%;
   display: flex;
   align-items: center;
