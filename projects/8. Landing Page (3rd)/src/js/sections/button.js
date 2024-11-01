@@ -16,6 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
     if(scrollPosition > 100) {
       backToTopButton.style.display = 'flex';
       whatsappButton.style.display = 'flex';
+
+      setTimeout(() => {
+        backToTopButton.style.opacity = '1';
+        whatsappButton.style.opacity = '1';
+      }, 10);
+    } else {
+      backToTopButton.style.opacity = '0';
+      whatsappButton.style.opacity = '0';
+
       setTimeout(() => {
         backToTopButton.style.display = 'none';
         whatsappButton.style.display = 'none';
@@ -33,7 +42,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Ação ao clicar no botão do WhatsApp
   whatsappButton.addEventListener('click', function () {
-    window.location.href = 'https://wa.me/5599999999999';
+    // window.location.href = 'https://wa.me/5599999999999';
+    window.open('https://wa.me/5599999999999', '_blank');
   });
 
 });

@@ -1,5 +1,6 @@
 /* KEYFRAMES */
 
+/* Botão WhatsApp */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -14,5 +15,26 @@
   100% {
     transform: scale(1);
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  }
+}
+
+/* Sobre */
+@keyframes scroll {
+  0% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }

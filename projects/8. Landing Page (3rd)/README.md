@@ -70,7 +70,6 @@ Ricardo Moura (Footprinting):
 
 Direitos:
 
-	Photo by Matan Levanon on Unsplash
 	Photo by Steve Douglas on Unsplash
 	Photo by Tadeu Jnr on Unsplash
 	Photo by Autumn Mott Rodeheaver on Unsplash
@@ -78,6 +77,7 @@ Direitos:
 	Photo by Markus Winkler on Unsplash
 	Photo by courtney coles on Unsplash
 	Photo by Gabriel Jimenez on Unsplash
+	Photo by Jessica Rockowitz on Unsplash
 
 Nome do empreendimento fictício:
 

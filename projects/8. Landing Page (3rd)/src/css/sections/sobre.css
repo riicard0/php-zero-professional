@@ -1,0 +1,167 @@
+/* SOBRE */
+
+.sobre {
+  color: var(--color-1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  z-index: 1;
+  user-select: none;
+  overflow: visible;
+}
+
+.sombra-sobre {
+  position: absolute;
+  background-color: var(--color-5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-sobre {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headline-sobre {
+  height: 30%;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.headline-scroll {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+.headline-scroll span {
+  font-family: var(--font-1);
+  font-size: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.headline-scroll .divisor {
+  background-color: var(--color-4);
+  color: var(--color-3);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.headline-scroll .bold {
+  font-weight: bold;
+  color: var(--color-3);
+}
+
+.headline-scroll .light {
+  font-weight: lighter;
+  color: var(--color-3);
+}
+
+.conteudo-sobre {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+.left-sobre {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 3rem;
+  color: var(--color-1);
+}
+
+.textos-sobre h1 {
+  font-size: 3rem;
+  font-family: var(--font-1);
+}
+
+.textos-sobre p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.redes-sociais {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.redes-sociais a {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color-4);
+  padding-bottom: 5px;
+  /* border-bottom: 1px solid hsla(0, 0%, 100%, 0.15); */
+  border-bottom: 1px solid var(--color-4);
+}
+
+.redes-sociais a:hover {
+  color: var(--color-1);
+  border-bottom: 1px solid var(--color-1);
+}
+
+.right-sobre {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-sobre {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.imagem-sobre img {
+  height: 500px;
+  z-index: 99;
+}
+
+.complemento-sobre {
+  width: auto;
+  z-index: 0;
+}
+
+.complemento-sobre img {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 600px;
+  z-index: 1000;
+  animation: rotate 20s linear infinite;
+}
