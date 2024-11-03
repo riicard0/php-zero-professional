@@ -13,7 +13,7 @@
   --color-6: #e7fc00;
   --color-7: #728e6f;
   --color-8: #24D366;
-  /* --color-9:  */
+  --color-9: rgb(248, 242, 163);
   /* --color-10:  */
 
   --font-1: "TT Hoves Pro Trial", sans-serif;
@@ -39,6 +39,7 @@ body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   transition: transform 0.3s ease-out;
+  background-color: var(--color-1);
 }
 
 .container {

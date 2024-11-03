@@ -1,0 +1,17 @@
+/* RESPONSIVIDADE */
+
+@media (min-width: 600px) {
+
+  /* skills */
+  .conteudo-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+
+  /* skills */
+  .conteudo-skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

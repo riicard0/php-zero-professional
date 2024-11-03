@@ -161,6 +161,7 @@
 
 .imagem-sobre img:hover {
   transform: scale(1.10);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .complemento-sobre {

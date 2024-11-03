@@ -156,7 +156,7 @@
   width: 80px;
   opacity: .2;
   transition: all .5s ease-in-out;
-  cursor: url('../../assets/icons/cursor/cursor3.png'), pointer;
+  cursor: url('../../assets/icons/cursor/cursor5.png'), pointer;
 }
 
 .qr-code:hover {

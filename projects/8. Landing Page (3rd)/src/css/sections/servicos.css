@@ -1,0 +1,100 @@
+/* SERVIÇOS */
+
+.container .skills {
+  width: 100vw;
+  background-color: var(--color-3);
+}
+
+.skills {
+  width: 100%;
+  padding: 7rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-skills {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline-skills {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-headline-skills h2 {
+  font-family: var(--font-1);
+  font-size: 3rem;
+}
+
+.text-headline-skills p {
+  font-size: 1.5rem;
+  color: var(--color-4);
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 900px;
+}
+
+.conteudo-skills {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+}
+
+.box-skills {
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+  border-radius: 20px;
+  color: var(--color-5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  padding: 2rem;
+  gap: 1.5rem;
+  transition: all .5s ease !important;
+}
+
+.box-skills:hover {
+  border: 2px solid var(--color-5);
+}
+
+.box-skills i {
+  font-size: 4rem;
+  color: var(--color-1);
+  margin: 0 auto;
+}
+
+.box-skills:hover i {
+  color: var(--color-5);
+  text-shadow: var(--color-8) 1px 0 10px;
+}
+
+.box-skills h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.box-skills:hover h3 {
+  color: var(--color-1);
+}
+
+.box-skills p {
+  color: var(--color-4);
+  font-size: 1.2rem;
+  font-weight: 500;
+  list-style: 1.4;
+}
+
+.box-skills:hover p {
+  color: var(--color-2);
+}

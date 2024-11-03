@@ -11,10 +11,9 @@
   justify-content: space-between;
   z-index: 99;
   transition: top 0.3s ease-in-out;
-  /* background-color: rgba(0, 0, 0, .85); */
-  background-color: var(--color-7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* logo */
@@ -25,6 +24,23 @@
 .logo img {
   width: 150px;
   cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.logo a:before {
+  content: '';
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 12px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 1s ease;
+}
+
+.logo a:hover:before {
+  background-color: var(--color-9);
+  display: block;
 }
 
 /* menu */
