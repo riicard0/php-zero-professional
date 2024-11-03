@@ -11,6 +11,7 @@
   z-index: 1;
   user-select: none;
   overflow: visible;
+  cursor: url('../../assets/icons/cursor/cursor4.png'), pointer;
 }
 
 .sombra-sobre {
@@ -125,6 +126,7 @@
   padding-bottom: 5px;
   /* border-bottom: 1px solid hsla(0, 0%, 100%, 0.15); */
   border-bottom: 1px solid var(--color-4);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .redes-sociais a:hover {
@@ -147,9 +149,18 @@
   align-items: center;
 }
 
+.imagem-sobre a {
+  z-index: 99;
+}
+
 .imagem-sobre img {
   height: 500px;
   z-index: 99;
+  transition: all .5s ease;
+}
+
+.imagem-sobre img:hover {
+  transform: scale(1.10);
 }
 
 .complemento-sobre {

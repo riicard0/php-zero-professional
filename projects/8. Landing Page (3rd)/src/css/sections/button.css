@@ -10,7 +10,7 @@
   border-radius: 50%;
   background-color: var(--color-5);
   color: var(--color-1);
-  cursor: pointer;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
   z-index: 1000;
   opacity: 0;
   transition: opacity 0.5s ease, box-shadow 0.5s ease;

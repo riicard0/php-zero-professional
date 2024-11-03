@@ -79,6 +79,10 @@ Direitos:
 	Photo by Gabriel Jimenez on Unsplash
 	Photo by Jessica Rockowitz on Unsplash
 
+	Cursor Icon by SeyfDesigner (FlatIcon)
+	Cursor Icon by srip (FlatIcon)
+	Cursor Icon by Pixel Perfect (FlatIcon)
+
 Nome do empreendimento fictício:
 
 	O primeiro nome seria:

@@ -24,6 +24,7 @@
 
 .logo img {
   width: 150px;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 /* menu */
@@ -36,7 +37,7 @@
 }
 
 .hamburger {
-  cursor: pointer;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .hamburger input {
@@ -134,6 +135,7 @@
   opacity: 0;
   transform: translateY(-20px);
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .menu-aberto.active .nav-menu a {

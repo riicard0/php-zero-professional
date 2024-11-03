@@ -76,7 +76,7 @@
   transition: all 0.2s ease;
   border: none;
   background: none;
-  cursor: pointer;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .cta span {
@@ -103,6 +103,7 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--color-5);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .cta:hover span {
@@ -148,12 +149,14 @@
 
 .complemento-inicio .text {
   width: 110px;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
 }
 
 .complemento-inicio .qr-code {
   width: 80px;
   opacity: .2;
   transition: all .5s ease-in-out;
+  cursor: url('../../assets/icons/cursor/cursor3.png'), pointer;
 }
 
 .qr-code:hover {
