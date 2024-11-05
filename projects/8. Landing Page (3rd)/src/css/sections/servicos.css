@@ -1,100 +1,154 @@
 /* SERVIÇOS */
 
-.container .skills {
+.servicos {
+  background-color: var(--color-7);
   width: 100vw;
-  background-color: var(--color-3);
-}
-
-.skills {
-  width: 100%;
-  padding: 7rem 1rem;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem 1rem;
 }
 
-.container-skills {
-  max-width: 1400px;
+.container-servicos {
   width: 100%;
+  max-width: 1400px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.headline-skills {
+.headline-servicos {
   width: 100%;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: var(--color-5);
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.text-headline-skills h2 {
-  font-family: var(--font-1);
-  font-size: 3rem;
+.titulo-servicos {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-.text-headline-skills p {
-  font-size: 1.5rem;
-  color: var(--color-4);
-  font-weight: 500;
-  line-height: 1.4;
-  max-width: 900px;
-}
-
-.conteudo-skills {
-  display: grid;
-  gap: 1rem;
-  width: 100%;
-}
-
-.box-skills {
-  border: 1px solid hsla(0, 0%, 100%, 0.15);
-  border-radius: 20px;
+.titulo-servicos h1 {
   color: var(--color-5);
+  width: 50%;
+  font-size: 8vw;
+  font-weight: lighter;
+  font-family: var(--font-1);
+}
+
+.descricao-servicos {
+  width: 50%;
+  font-size: 2rem;
+  text-align: right;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  font-family: var(--font-1);
+  color: var(--color-5);
+}
+
+.servicos-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0rem;
+}
+
+.card-servicos {
+  border: 1px solid var(--color-5);
+  max-width: 95%;
+  min-height: 180px;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.card-servicos-left {
+  margin-left: 5%;
+  border: 1px solid var(--color-5);
+  width: 95%;
+  min-height: 180px;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 7%;
+}
+
+.card-titulo {
+  width: 80%;
+}
+
+.card-titulo h1 {
+  font-size: clamp(1rem, 2.5vw + .4rem, 2rem);
+  font-family: var(--font-2);
+  font-weight: bolder;
+  color: var(--color-9);
+}
+
+.card-servicos:hover .card-titulo h1,
+.card-servicos-left:hover .card-titulo h1 {
+  display: none;
+}
+
+.card-titulo p {
+  display: none;
+  font-size: clamp(0.8rem, 2.5vw + .4rem, 2rem);
+  line-height: 30px;
+  font-family: var(--font-1);
+  font-weight: lighter;
+}
+
+.card-servicos:hover .card-titulo p,
+.card-servicos-left:hover .card-titulo p {
+  display: block;
+  color: var(--color-5);
+}
+
+.card-servicos:hover,
+.card-servicos-left:hover {
+  border: 2px solid var(--color-1);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-icon {
+  width: 25%;
+  height: 60px;
+  max-width: 120px;
+  border: 1px solid var(--color-5);
+  border-radius: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 450px;
-  padding: 2rem;
-  gap: 1.5rem;
-  transition: all .5s ease !important;
+  align-items: center;
 }
 
-.box-skills:hover {
-  border: 2px solid var(--color-5);
-}
-
-.box-skills i {
-  font-size: 4rem;
-  color: var(--color-1);
-  margin: 0 auto;
-}
-
-.box-skills:hover i {
+.card-icon i {
+  font-size: 2rem;
   color: var(--color-5);
-  text-shadow: var(--color-8) 1px 0 10px;
+  margin-bottom: -7px;
 }
 
-.box-skills h3 {
-  text-align: center;
-  font-size: 1.8rem;
+.card-servicos:hover .card-icon,
+.card-servicos-left:hover .card-icon {
+  border: 1px solid var(--color-9);
 }
 
-.box-skills:hover h3 {
-  color: var(--color-1);
-}
-
-.box-skills p {
-  color: var(--color-4);
-  font-size: 1.2rem;
-  font-weight: 500;
-  list-style: 1.4;
-}
-
-.box-skills:hover p {
-  color: var(--color-2);
+.card-servicos:hover .card-icon i,
+.card-servicos-left:hover .card-icon i {
+  color: var(--color-9);
 }
