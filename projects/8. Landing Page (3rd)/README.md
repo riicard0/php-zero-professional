@@ -79,6 +79,16 @@ Direitos:
 	Photo by Gabriel Jimenez on Unsplash
 	Photo by Jessica Rockowitz on Unsplash
 
+	Photo by Brooke Cagle on Unsplash
+	Photo by Raphael Rychetsky on Unsplash
+	Photo by Matthieu Pétiard on Unsplash
+	Photo by Discover Serbia on Unsplash
+	Photo by Max on Unsplash
+	Photo by Daniel Fazio on Unsplash
+	Photo by Henry Be on Unsplash
+	Photo by Elaine Casap on Unsplash
+      
+
 	Cursor Icon by SeyfDesigner (FlatIcon)
 	Cursor Icon by srip (FlatIcon)
 	Cursor Icon by Pixel Perfect (FlatIcon)
