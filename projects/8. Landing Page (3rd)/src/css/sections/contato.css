@@ -1,0 +1,261 @@
+/* CONTATO */
+
+.contato {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  padding: 2rem 0rem 3rem 0rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-5);
+  cursor: url('../../assets/icons/cursor/cursor4.png'), auto;
+}
+
+.container-contato {
+  width: 100%;
+  height: 100vh;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headline-contato {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-contato {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.titulo-contato h1 {
+  color: var(--color-1);
+  width: 50%;
+  font-size: 8vw;
+  font-weight: lighter;
+  font-family: var(--font-1);
+}
+
+.descricao-contato {
+  width: 50%;
+  text-align: right;
+  margin-top: 5rem;
+}
+
+.descricao-contato a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: var(--font-1);
+  color: var(--color-1);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+  transition: all .3s ease;
+}
+
+.descricao-contato a:hover {
+  color: var(--color-8);
+}
+
+.descricao-contato li:last-child a {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.conteudo-contato {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.formulario-contato {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.formulario-contato h2 {
+  font-size: 2rem;
+}
+
+.formulario-contato p {
+  font-size: 1.5rem;
+  color: var(--color-3);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form input {
+  font-family: var(--font-2);
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  /* outline: none; */
+  border: 2px solid var(--color-10);
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  transition: all .3s ease;
+  cursor: url('../../assets/icons/cursor/cursor6.png'), text;
+}
+
+.form textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  /* outline: none; */
+  border: 2px solid var(--color-10);
+  font-family: var(--font-2);
+  font-size: 1.2rem;
+  padding: 1.5rem 1rem;
+  resize: none;
+  transition: all .3s ease;
+  cursor: url('../../assets/icons/cursor/cursor6.png'), text;
+}
+
+.form input:hover,
+.form textarea:hover {
+  border: 2px solid var(--color-1);
+}
+
+.btn {
+  width: 190px;
+  padding: 1rem 0rem;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bolder;
+  font-size: 1rem;
+  background-color: var(--color-8);
+  color: var(--color-1);
+  border-radius: 30px;
+  border: 1px solid var(--color-1);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  border: 1px solid var(--color-1);
+}
+
+.logo-contato {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  z-index: 1;
+}
+
+.logo-contato a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-contato img {
+  width: 100%;
+  opacity: .8;
+  border-radius: 36px;
+  transition: all .3s ease;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.logo-contato img:hover {
+  width: 90%;
+  opacity: 1;
+}
+
+/* Efeito IMG Hover */
+.logo-contato span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color-4);
+  transition: all .3s ease;
+}
+
+.logo-contato a:hover .design1,
+.logo-contato a:hover .design2 {
+  width: 2px;
+  height: 35rem;
+}
+
+.logo-contato .design1 {
+  top: 6rem;
+  left: -.5rem;
+}
+
+.logo-contato a:hover .design1 {
+  left: 85%;
+  top: 4rem;
+  background-color: var(--color-8);
+}
+
+.logo-contato .design2 {
+  top: 6rem;
+  right: -.5rem;
+}
+
+.logo-contato a:hover .design2 {
+  right: 12.5%;
+  top: 4rem;
+  background-color: var(--color-1);
+}
+
+.logo-contato .design3 {
+  right: -.5rem;
+  bottom: 6rem;
+}
+
+.logo-contato a:hover .design3 {
+  top: 12rem;
+  left: -1rem;
+  background-color: var(--color-8);
+}
+
+.logo-contato .design4 {
+  bottom: 6rem;
+  left: -.5rem;
+}
+
+.logo-contato a:hover .design4 {
+  top: 13rem;
+  left: -1rem;
+  background-color: var(--color-1);
+}
+
+.logo-contato a:hover .design3,
+.logo-contato a:hover .design4 {
+  width: 45rem;
+  height: 2px;
+}

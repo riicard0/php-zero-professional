@@ -103,17 +103,25 @@
 
 .prev,
 .next {
-  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  color: var(--color-5);
-  font-size: 2rem;
+  height: auto;
+  display: flex;
+  padding: 1rem;
   user-select: none;
   transform: translateY(-50%);
   border-radius: 50%;
   z-index: 1;
+  color: var(--color-5);
+  background-color: var(--color-3);
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.prev:hover,
+.next:hover {
+  color: var(--color-1);
+  background-color: var(--color-2);
 }
 
 .prev {
