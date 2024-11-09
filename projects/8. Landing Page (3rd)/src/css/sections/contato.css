@@ -150,10 +150,10 @@
   outline: none;
   font-weight: bolder;
   font-size: 1rem;
-  background-color: var(--color-8);
+  background-color: var(--color-6);
   color: var(--color-1);
+  border: 1px solid var(--color-6);
   border-radius: 30px;
-  border: 1px solid var(--color-1);
   cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
   transition: all .3s ease;
 }
@@ -218,7 +218,7 @@
 .logo-contato a:hover .design1 {
   left: 85%;
   top: 4rem;
-  background-color: var(--color-8);
+  background-color: var(--color-6);
 }
 
 .logo-contato .design2 {
@@ -240,7 +240,7 @@
 .logo-contato a:hover .design3 {
   top: 12rem;
   left: -1rem;
-  background-color: var(--color-8);
+  background-color: var(--color-6);
 }
 
 .logo-contato .design4 {

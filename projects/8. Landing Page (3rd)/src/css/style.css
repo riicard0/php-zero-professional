@@ -10,12 +10,13 @@
   --color-3: #3d4143;
   --color-4: #9c9d9d;
   --color-5: #f6f6f6;
-  --color-6: #e7fc00;
+  --color-6: #51bfff77;
   --color-7: #728e6f;
   --color-8: #24D366;
   --color-9: rgb(248, 242, 163);
   --color-10: rgba(128, 128, 128, 0.5);
-  /* --color-11:  */
+  --color-11: #ff9334;
+  --color-12: rgba(248, 242, 163, 0.685);
 
   --font-1: "TT Hoves Pro Trial", sans-serif;
   --font-2: "ClashGrotesk-Light", sans-serif;

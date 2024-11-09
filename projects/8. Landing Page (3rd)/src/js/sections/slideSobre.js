@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Cria e adiciona um estilo CSS para a aniação de rolagem
 const styleSheet = document.createElement('style');
-styleSheet.HTMLStyleElement.type = 'text/css';
+styleSheet.type = 'text/css';
 styleSheet.innerText = `
 @keyframes scroll {
   0% {
