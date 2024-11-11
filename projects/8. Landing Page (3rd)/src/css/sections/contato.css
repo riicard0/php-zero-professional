@@ -211,7 +211,7 @@
 }
 
 .logo-contato .design1 {
-  top: 6rem;
+  top: 8rem;
   left: -.5rem;
 }
 
@@ -222,7 +222,7 @@
 }
 
 .logo-contato .design2 {
-  top: 6rem;
+  top: 8rem;
   right: -.5rem;
 }
 
@@ -234,7 +234,7 @@
 
 .logo-contato .design3 {
   right: -.5rem;
-  bottom: 6rem;
+  bottom: 8rem;
 }
 
 .logo-contato a:hover .design3 {
@@ -244,7 +244,7 @@
 }
 
 .logo-contato .design4 {
-  bottom: 6rem;
+  bottom: 8rem;
   left: -.5rem;
 }
 
