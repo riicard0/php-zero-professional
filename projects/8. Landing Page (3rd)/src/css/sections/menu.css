@@ -1,0 +1,217 @@
+/* MENU */
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 100;
+}
+
+.hamburger {
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  height: 3em;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: var(--color-2);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger:hover svg .line {
+  stroke: var(--color-4);
+  stroke-width: 3;
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked+svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked+svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+/* menu navegação */
+.menu-aberto {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7959558823529411) 0%, rgba(22, 56, 78, 1) 90%);
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 0;
+  width: 25%;
+  overflow: hidden;
+  z-index: 98;
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.menu-aberto.active {
+  height: 100vh;
+  opacity: 1;
+}
+
+.sombra-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+  background-color: var(--color-1);
+}
+
+.nav-menu {
+  margin-top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nav-menu a {
+  user-select: none;
+  text-decoration: none;
+  color: var(--color-4);
+  font-family: var(--font-2);
+  font-size: 1.8rem;
+  font-weight: bold;
+  transform: translateY(-20px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.nav-menu a:hover {
+  color: var(--color-2);
+  transition: all 0.3s ease;
+  text-shadow: var(--color-3) 1px 0 10px;
+}
+
+.menu-aberto.active .nav-menu a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cta-menu-aberto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-menu-aberto {
+  display: flex;
+  justify-content: center;
+  margin: 20% 0 10% 0;
+}
+
+.logo-menu-aberto img {
+  width: 150px;
+  opacity: .8;
+  transition: all .3s ease;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.logo-menu-aberto img:hover {
+  animation: rotate 5s infinite;
+  opacity: 1;
+}
+
+.cta-menu-aberto p {
+  margin: 0 3rem 2rem 3rem;
+  font-family: var(--font-1);
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: center;
+  color: var(--color-2);
+}
+
+.button-menu-aberto {
+  width: 60%;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-4);
+  font-size: 1.3rem;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  border-radius: 4rem;
+  color: var(--color-1);
+  background-color: var(--color-2);
+  transition: all .3s ease;
+  animation: pulse-general 5s infinite;
+  cursor: url('../../assets/icons/cursor/cursor2.png'), pointer;
+}
+
+.button-menu-aberto:hover {
+  color: var(--color-5);
+  background-color: var(--color-6);
+}
+
+.social-menu-aberto {
+  display: flex;
+  justify-content: center;
+}
+
+.social-menu-aberto .social-links {
+  position: absolute;
+  bottom: 2.5rem;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.social-menu-aberto .social-links a i {
+  font-size: 1.5rem;
+  margin-right: 0rem;
+}
+
+.design-line {
+  position: absolute;
+  background-color: var(--color-3);
+}
+
+.line1 {
+  top: 2rem;
+  width: 5rem;
+  height: 1px;
+}
+
+.line2 {
+  left: 3rem;
+  width: 4rem;
+  height: 1px;
+  transform: rotate(-90deg);
+}
+
+.line3 {
+  bottom: 2rem;
+  right: 0;
+  width: 5rem;
+  height: 1px;
+}
+
+.line4 {
+  bottom: 2rem;
+  left: 0;
+  width: 5rem;
+  height: 1px;
+}
