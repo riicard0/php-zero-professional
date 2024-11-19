@@ -11,6 +11,56 @@
 
 @media (max-width: 1200px) {
 
+  /* Menu (responsividade: Notebook) */
+  .cta-field-menu-aberto {
+    position: absolute;
+    bottom: 20%;
+  }
+
+  .menu-aberto {
+    width: 30%;
+  }
+
+  .nav-menu {
+    margin-top: 50%;
+    gap: 1.5rem;
+  }
+
+  .nav-menu a {
+    font-size: 1.5rem;
+  }
+
+  .logo-menu-aberto img {
+    width: 90px;
+  }
+
+  .logo-menu-aberto {
+    margin: 15% 0 5% 0;
+  }
+
+  .cta-menu-aberto p {
+    margin: 0 2rem 2rem 2rem;
+    font-size: .8rem;
+  }
+
+  .button-menu-aberto {
+    width: 55%;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .line3 {
+    width: 3rem;
+  }
+
+  .line4 {
+    width: 3rem;
+  }
+
+  .social-menu-aberto .social-links a i {
+    font-size: 1.1rem;
+  }
+
   /* Sobre (responsividade: Notebook) */
   .imagem-sobre img {
     height: 400px;
@@ -80,6 +130,11 @@
 @media (max-width:1024px) {
   .container {
     padding: 0;
+  }
+
+  /* Menu (responsividade: iPad/Tablet) */
+  .menu-aberto {
+    width: 35%;
   }
 
   /* Sobre (responsividade: iPad/Tablet) */
@@ -152,11 +207,11 @@
   }
 
   /* Free Your Mind - CTA (responsividade: iPad/Tablet) */
-  .line {
+  .line-container .line {
     display: none;
   }
 
-  .line:nth-child(2) {
+  .line-container .line:nth-child(2) {
     display: flex;
   }
 
@@ -304,7 +359,72 @@
   }
 }
 
+/* ============= Smartphone ============= */
 @media (max-width:800px) {
+
+  /* Menu (responsividade: Smartphone) */
+  .sombra-menu {
+    background-color: var(--color-10);
+    opacity: 1;
+  }
+
+  .menu-aberto {
+    width: 100%;
+  }
+
+  .nav-menu {
+    margin-top: 25%;
+    gap: 1.5rem;
+  }
+
+  .nav-menu a {
+    color: var(--color-5);
+    font-size: 1.4rem;
+  }
+
+  .cta-field-menu-aberto {
+    position: absolute;
+    bottom: 13%;
+  }
+
+  .logo-menu-aberto {
+    margin: 0 0 10% 0;
+  }
+
+  .logo-menu-aberto img {
+    width: 70px;
+    animation: rotate 5s infinite;
+    opacity: 1;
+  }
+
+  .cta-menu-aberto p {
+    color: var(--color-5);
+    margin: 0 3rem 2rem 3rem;
+    font-size: .8rem;
+  }
+
+  .button-menu-aberto {
+    width: 45%;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .design-line {
+    background-color: var(--color-4);
+  }
+
+  .line3 {
+    width: 3rem;
+  }
+
+  .line4 {
+    width: 3rem;
+  }
+
+  .social-menu-aberto .social-links a i {
+    font-size: 1.1rem;
+    color: var(--color-1);
+  }
 
   /* Footer (responsividade: Smartphone) */
   .container-footer {
@@ -323,7 +443,6 @@
   }
 }
 
-/* ============= Smartphone ============= */
 @media (min-width: 600px) {
 
   /* Skills (responsividade: Smartphone */
@@ -334,13 +453,18 @@
 
 @media (max-width: 600px) {
 
+  /* Início (responsividade: Smartphone) */
+  .inicio {
+    background-position: center;
+  }
+
   /* Sobre (responsividade: Smartphone */
   .imagem-sobre img {
     height: 350px;
   }
 
   .complemento-sobre img {
-    height: 380px;
+    height: 350px;
   }
 
   /* Serviços (responsividade: Smartphone) */
@@ -366,7 +490,7 @@
   }
 
   /* Free Your Mind - CTA (responsividade: Smartphone) */
-  .line {
+  .line-container .line {
     display: none;
   }
 }

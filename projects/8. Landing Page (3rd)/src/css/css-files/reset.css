@@ -161,9 +161,9 @@ iframe {
 /* ===== 02. Global Style ===== */
 /* body {
   overflow-x: hidden;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 75px;
   font-weight: 800;
   line-height: 85px;
@@ -230,8 +230,8 @@ a {
   text-decoration: none;
   transition: all 0.3s ease;
   color: #c9c3c3;
-}
+} */
 
 li {
   list-style: none;
-} */
+}
