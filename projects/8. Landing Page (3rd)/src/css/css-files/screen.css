@@ -427,7 +427,24 @@
   }
 
   /* Portfólio (responsividade: Smartphone) */
-  .imagens-case {
+
+  .case1 {
+    gap: 5rem;
+  }
+
+  .case2 {
+    gap: 4rem;
+  }
+
+  .case3 {
+    gap: 4rem;
+  }
+
+  .case4 {
+    gap: 4rem;
+  }
+
+  .container-case {
     margin-bottom: 3rem;
   }
 
