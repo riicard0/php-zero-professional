@@ -161,6 +161,9 @@ https://michalsnik.github.io/aos/
 ## 🔥 Introdução
 O objetivo desse projeto é ser uma Landing Page (essa sendo a terceira versão), apenas para assimilação e desenvolvimento de aprendizado. Vale ressaltar que é um projeto individual e foi instruído a fazer como exercício.
 
+Lembro também que esse README serve também como um manual.
+Então não espere um banner de apresentação do projeto e sim um banner/manual um pouco mais técnico.
+
 &nbsp;
 
 ## ⚖ Características Gerais
@@ -489,8 +492,7 @@ Obs.: Este projeto é derivado de um curso no qual faço, então ele está entre
 
 ## 💈 Organização da Estrutura
 
-1. Estrutura geral:
-
+1. Estrutura geral
 - style.css
     - @import: import.css
     - reset CSS elements
@@ -508,8 +510,7 @@ Obs.: Este projeto é derivado de um curso no qual faço, então ele está entre
 
 &nbsp;
 
-2. Estrutura seções:
-
+2. Estrutura seções
 - Início
 - Menu Lateral
     - Button "Saiba Mais" (Not-Found)
@@ -532,8 +533,7 @@ Obs.: Este projeto é derivado de um curso no qual faço, então ele está entre
 
 &nbsp;
 
-3. Responsividades:
-
+3. Responsividades
 > 1400px, 
 > 1200px, 
 > 1024px,
@@ -546,14 +546,16 @@ Obs.: Este projeto é derivado de um curso no qual faço, então ele está entre
 Obs.: Para o "media-query" tinha a opção de deixá-lo no mesmo arquivo CSS que cada seção teve para si ou um 
 arquivo separado somente para "media-query", utilizei a segunda opção.
 
-Obs.: Classes e IDs no HTML foram organizados da seguinte maneira para melhor identificação, exemplo:
+4. Classes e IDs no HTML foram organizados da seguinte maneira para melhor SEO e identificação, exemplo:
 ```
   #section_default
   #section_specific
     
   .section-default
   .section-specific
-  
+```
+
+```  
 > Classes e IDs implementados no código:
 
 <!-- Botão voltar ao Topo -->
@@ -620,19 +622,293 @@ Obs.: Classes e IDs no HTML foram organizados da seguinte maneira para melhor id
 
 <!-- Sobre -->
   #sobre .sobre
+  .sombra-sobre
+  .container-sobre
+  .headline-sobre
+  #headline-scroll .headline-scroll
+  .bold
+  .divisor
+  .light
+  .divisor
+  .bold
+  .divisor
+  .light
+  .divisor
+  .bold
+  .divisor
+  .light
+  .divisor
   
+  .conteudo-sobre
+  .left-sobre
+  .textos-sobre
+  .redes-sociais
+  .bi .bi-arrow-right
+  
+  .imagem-sobre
+  
+  .complemento-sobre
 
-<!--  -->
+<!-- Skills -->
+  #skills .skills
+  .container-skills
+  .headline-skills
+  .text-headline-skills
+  
+  .conteudo-skills
+  .box-skills
+  .bi .bi-award
+  
+  .box-skills
+  .bi .bi-handbag
+  
+  .box-skills
+  .bi .bi-heart-pulse
+  
+  .box-skills
+  .bi .bi-bug
+  
+<!-- Serviços -->
+  #servicos .servicos
+  .container-servicos
+  .headline-servicos
+  .titulo-servicos
+  .descricao-servicos
+  
+  .servicos-card
+  .card-servicos-left
+  .card-titulo
+  .card-icon .bi .bi-share
+  
+  .card-servicos
+  .card-titulo
+  .card-icon .bi .bi-diagram-3
+  
+  .card-servicos-left
+  .card-titulo
+  .card-icon .bi .bi-globe
+  
+  .card-servicos
+  .card-titulo
+  .card-icon .bi .bi-currency-dollar
+  
+  .card-servicos-left
+  .card-titulo
+  .card-icon .bi .bi-layers
+
+<!-- Complemento FREE YOUR MIND - CTA -->
+  #free_your_mind .free-your-mind
+  .container-free-your-mind
+  .line-container
+  .line
+  
+  .line-container .center
+  .line
+  .line
+  
+  .line-container .right
+  .line
+
+<!-- Portfólio -->
+  #portfolio .portfolio
+  .container-portfolio
+  .headline-portfolio
+  .titulo
+  .descricao
+  .container-case
+
+  .case1
+  .imagens-case
+  .slide
+  .bi .bi-chevron-left .prev
+  .bi .bi-chevron-right .next
+  
+  .textos-case
+  .conteudo-textos-case
+  
+  .case2
+  textos-case
+  .conteudo-textos-case
+  
+  .imagens-case
+  .slide
+  .bi .bi-chevron-left .prev
+  .bi .bi-chevron-right .next
+  
+  .case3
+  .imagens-case
+  .slide
+  .bi .bi-chevron-left .prev
+  .bi .bi-chevron-right .next
+  
+  .textos-case
+  .conteudo-textos-case
+
+  .case4
+  .textos-case
+  .conteudo-textos-case
+  
+  .imagens-case
+  .slide
+  .bi .bi-chevron-left .prev
+  .bi .bi-chevron-right .next
+
+<!-- Contato -->
+  #contato .contato
+  .container-contato
+  .headline-contato
+  .titulo-contato
+  .descricao-contato
+  .lista-contato
+  
+  .conteudo-contato
+  .formulario-contato
+  
+  .form
+  #mensagem
+  .btn
+  
+  .logo-contato
+  .design1
+  .design2
+  .design3
+  .design4
+
+<!-- Footer -->
+  #footer .footer
+  .wave-footer
+  .container-footer
+  
+  .footer-column .logo-column
+  
+  .footer-column .menu-column
+  .footer-nav
+  
+  .footer-column .social-column
+  .social-links
+  .bi .bi-instagram
+  .bi .bi-twitter
+  .bi .bi-facebook
+  .bi .bi-linkedin
+  
+  .footer-column .credits-column
+```
+
+```
+> TAGs HTML utilizadas no website para melhor SEO:
+
+<!-- Botão Voltar ao Topo -->
+  <div>
+  <i>
+  
+<!-- Botão WhatsApp -->
+  <div>
+  <i>
+
+<!-- Container Geral -->
+  <div>
+  
+<!--  Header  -->
+  <header>
+  <div>
+  <a>
+  <img>
+  <label>
+  <input>
+  <svg>
+  <path>
+  <span>
+  <nav>
+  <p>
+  <ul>
+  <li>
+  <i>
+  
+<!-- Início -->
+  <main>
+  <span>
+  <div>
+  <h1>
+  <p>
+  <button>
+  <a>
+  <svg>
+  <path>
+  <polyline>
+  <img>
+
+<!-- Sobre -->
+  <section>
+  <span>
+  <div>
+  <span>
+  <h1>
+  <p>
+  <a>
+  <i>
+  <img>
+  
+<!-- Skills -->
+  <div>
+  <h2>
+  <p>
+  <i>
+  <h3>
+
+<!-- Serviços -->
+  <section>
+  <div>
+  <h1>
+  <p>
+  
+<!-- Complemento FREE YOUR MIND - CTA -->
+  <section>
+  <div>
+  <span>
+  
+<!-- Portfólio -->
+  <section>
+  <div>
+  <h1>
+  <span>
+  <i>
+  <img>
+  <p>
+  
+<!-- Contato -->
+  <section>
+  <div>
+  <h1>
+  <ul>
+  <li>
+  <a>
+  <h2>
+  <p>
+  <form>
+  <input>
+  <textarea>
+  <button>
+  <img>
+  <span>
+  
+<!-- Footer -->
+  <footer>
+  <img>
+  <div>
+  <a>
+  <nav>
+  <ul>
+  <li>
+  <i>
+  <p>
 ```
 
 &nbsp;
 
 ## 💾 Fonte
 
-- Vídeo-Aula principal da [Vbm Coder](https://youtube.com/playlist?list=PLOuQ_bztAI-IWJZxnpXZTdPFJPZa1JVRJ&si=yrRjXm9kbd3EgzV3)
-- Temas específicos no [Stack OverFlow](https://stackoverflow.com/)
-- Vídeo-Aulas a parte no [YouTube](https://www.youtube.com)
-- Pesquisas rápidas, perguntas e respostas e IA no [Google](https://www.google.com)
+- Código principal da [RM Dev](https://rmdeveloper.com.br/)
+- Pesquisas rápidas, perguntas, respostas e IA no [Google](https://www.google.com)
 
 &nbsp;
 
@@ -647,16 +923,16 @@ Sem licença até o momento.
 Desenvolver uma Landing Page moderna.
 
 ### > Feito sozinho ou por video-aula?
-Feito através de uma video-aula no YouTube, dentre vários vídeos, escolhi esse a dedo. Queria que fosse uma Landing Page moderna ou próximo disso.
+Feito através de um código de uma Landing Page Rascunho disponibilizada no Github, lembrando que escrevi esse código a partir de outro porém adverto que escrevi cada linha desse site.
 
 ### > Quantas video-aulas foram feitas?
-Quatro vídeo-aulas. Com duração total de 4:16:12.
+Nenhuma.
 
 ### > Foi feito deploy do projeto?
-Sim, foi feito o [Deploy](https://b7web-7.vercel.app/) do projeto através da Vercel.
+Sim, foi feito o [Deploy](https://b7web-8.vercel.app/) do projeto através da Vercel.
 
 ### > Direitos reservados do website e agradecimento:
-O website foi instruído pelo [YouTube Channel: Vbm Coder](https://youtu.be/_NWqwAuWPVY?si=iChm7zMTglQD9pCr) / [Portfolio: Coding Web Studio](https://www.codingwebstudio.com/webpages/animated-digital-website-template/). Todos os direitos são reservados deles, todas as imagens no website são meramente ilustrativas. Obrigado pelos ensinamentos repassados.
+O website foi instruído pelo [Tiktok Profile: Ricardo Moura](https://www.tiktok.com/@riicardomoura) / [Portfolio: RM Dev](https://rmdeveloper.com.br/). Todos os direitos são reservados deles, todas as imagens no website são meramente ilustrativas. Obrigado pelos ensinamentos repassados.
 
 &nbsp;
 
@@ -667,7 +943,7 @@ Agradecimentos formais a essas pessoas:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.youtube.com/@vbmcoder"><img src="https://www.codingwebstudio.com/img/coder.jpg" width="100px;" alt="Vaibhav Makwana"/><br /><sub><b>Vaibhav Makwana</b></sub></a><br /><a href="https://www.codingwebstudio.com/" title="Portfolio">📱</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.tiktok.com/@riicardomoura"><img src="https://avatars.githubusercontent.com/u/106688139?v=4" width="100px;" alt="Ricardo Moura"/><br /><sub><b>Ricardo Moura</b></sub></a><br /><a href="https://rmdeveloper.com.br/" title="Portfolio">📱</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://martinsr.com"><img src="https://avatars.githubusercontent.com/u/81168692?v=4" width="100px;" alt="Ricardo Martins"/><br /><sub><b>Ricardo Martins</b></sub></a><br /><a href="https://github.com/riicard0" title="Github">📱</a></td>
     </tr>
   </tbody>
@@ -678,70 +954,70 @@ Agradecimentos formais a essas pessoas:
 ## 📸 Printscreen
 
 ### Imagem 1:
-![Imgur](https://i.imgur.com/VTPALoD.png)
+![Imgur]()
 
 ### Imagem 2:
-![Imgur](https://i.imgur.com/GJkK9pI.png)
+![Imgur]()
 
 ### Imagem 3:
-![Imgur](https://i.imgur.com/rpfb1BP.png)
+![Imgur]()
 
 ### Imagem 4:
-![Imgur](https://i.imgur.com/KiOTMNn.png)
+![Imgur]()
 
 ### Imagem 5:
-![Imgur](https://i.imgur.com/6x9GlYc.png)
+![Imgur]()
 
 ### Imagem 6:
-![Imgur](https://i.imgur.com/qcGWwis.png)
+![Imgur]()
 
 ### Imagem 7:
-![Imgur](https://i.imgur.com/x45P9wz.png)
+![Imgur]()
 
 ### Imagem 8:
-![Imgur](https://i.imgur.com/qGADYzu.png)
+![Imgur]()
 
 ### Imagem 9:
-![Imgur](https://i.imgur.com/0uIS7aj.png)
+![Imgur]()
 
 ### Imagem 10:
-![Imgur](https://i.imgur.com/6OcVfuy.png)
+![Imgur]()
 
 ### Imagem 11:
-![Imgur](https://i.imgur.com/QGCpW7g.png)
+![Imgur]()
 
 ### Imagem 12:
-![Imgur](https://i.imgur.com/zgMAsW2.png)
+![Imgur]()
 
 ### Imagem 13:
-![Imgur](https://i.imgur.com/RhVUP7q.png)
+![Imgur]()
 
 ### Imagem 14:
-![Imgur](https://i.imgur.com/fOi1cM7.png)
+![Imgur]()
 
 ### Imagem 15:
-![Imgur](https://i.imgur.com/LS4HnY9.png)
+![Imgur]()
 
 ### Imagem 16:
-![Imgur](https://i.imgur.com/MH7iRtR.png)
+![Imgur]()
 
 ### Imagem 17:
-![Imgur](https://i.imgur.com/w1PxY0D.png)
+![Imgur]()
 
 ### Imagem 18:
-![Imgur](https://i.imgur.com/ma50qUN.png)
+![Imgur]()
 
 ### Imagem 19:
-![Imgur](https://i.imgur.com/5HpYk7t.png)
+![Imgur]()
 
 ### Imagem 20:
-![Imgur](https://i.imgur.com/k3Ormur.png)
+![Imgur]()
 
 ### Imagem 21:
-![Imgur](https://i.imgur.com/t7lXfGU.png)
+![Imgur]()
 
 ### Imagem 22:
-![Imgur](https://i.imgur.com/mUKI8de.png)
+![Imgur]()
 
 ### Full Website:
-![Imgur](https://i.imgur.com/C8Ij4g3.jpg)
+![Imgur]()
