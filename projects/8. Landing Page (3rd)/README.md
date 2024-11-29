@@ -123,10 +123,14 @@ https://michalsnik.github.io/aos/
 
 
 
+EmailJS
 
 
-
-
+<!-- Contato -->
+#fullName
+#phone_number
+#email_id
+#message		tirei o id #mensagem
 
 
 

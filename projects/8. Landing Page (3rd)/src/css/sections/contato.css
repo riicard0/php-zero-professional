@@ -118,10 +118,18 @@
   border-radius: 30px;
   /* outline: none; */
   border: 2px solid var(--color-10);
+  color: var(--color-1);
+  font-weight: bold;
   padding: 1.5rem 1rem;
   font-size: 1.2rem;
   transition: all .3s ease;
   cursor: url('../../assets/icons/cursor/cursor6.png'), text;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--color-3);
+  font-weight: 100;
 }
 
 .form textarea {
@@ -130,6 +138,8 @@
   border-radius: 30px;
   /* outline: none; */
   border: 2px solid var(--color-10);
+  color: var(--color-1);
+  font-weight: bold;
   font-family: var(--font-2);
   font-size: 1.2rem;
   padding: 1.5rem 1rem;
