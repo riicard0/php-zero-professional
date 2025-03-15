@@ -1,0 +1,28 @@
+/* General Style */
+
+/* import */
+@import url('./css-files/import.css');
+
+/* Variables */
+:root {
+  --color-1: #000;
+  --color-2: #fff;
+  --color-3: #101218;
+  --color-4: #1F2128;
+  --color-5: #a5a4a4;
+
+  --font-1: "Roboto", sans-serif;
+  --font-2: "Poppins", sans-serif;
+}
+
+/* Container */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: var(--color-3);
+}
